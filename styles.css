@@ -79,6 +79,11 @@ input[type="text"], input[type="number"], select {
   max-width: 600px;
   text-align: center;
   position: relative;
+  /* Nouveau: Rendre le contenu du popup scrollable et responsive */
+  max-height: 80vh; /* Limite la hauteur du popup à 80% de la hauteur de la fenêtre */
+  overflow-y: auto; /* Active le défilement vertical si le contenu dépasse max-height */
+  width: 50%; /* Prend 50% de la largeur disponible */
+  box-sizing: border-box; /* S'assure que le padding est inclus dans la largeur/hauteur */
 }
 
 .popup-content h2 {
