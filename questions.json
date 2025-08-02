@@ -1,0 +1,1227 @@
+[
+    {
+        "subject": "Question Personnelle",
+        "question": "Salut ! Est-tu Gay, <NICKNAME> ?",
+        "choices": ["Oui", "Non"],
+        "feedback": {
+            "Oui": "Ahh, tu assumes, <NICKNAME> ! C'est bien de s'affirmer !",
+            "Non": "Pas la peine de le nier, <NICKNAME>, c'est ce que tout le monde dit ! 😉"
+        }
+    },
+    {
+        "subject": "Calcul impossible !",
+        "question": "Combien font 2 + 2 = ?",
+        "choices": ["3", "5", "6", "1"],
+        "answer": "Il n'y a pas de bonne réponse parmi les choix proposés, <NICKNAME>."
+    },
+    {
+        "subject": "Culture Générale",
+        "question": "Dans quel pays se trouve la muraille de Chine, <NICKNAME> ?",
+        "choices": ["Japon", "Corée", "Chine", "Paris"],
+        "feedback": {
+            "Japon": "Pas loin… juste à 3000km près, <NICKNAME> 😏",
+            "Corée": "Encore raté, mais tu chauffes, <NICKNAME> !",
+            "Chine": "Bien joué, <NICKNAME>… mais c’était trop facile 😒",
+            "Paris": "🤣🤣🤣 T’as tenté un Paris gagnant, <NICKNAME> ?!"
+        }
+    },
+    {
+        "subject": "Question piège",
+        "question": "Si tu prends 3 pommes et que t’en manges 2, combien t’en as, <NICKNAME> ?",
+        "choices": ["1", "2", "3", "0"],
+        "feedback": {
+            "1": "Exact, <NICKNAME> ! Car t’en as toujours 3, t’en as juste mangé 😎",
+            "2": "Non, <NICKNAME>, t’en as mangé 2, pas gardé 2 bro 😅",
+            "3": "Ouais enfin t’es pas Kirby, <NICKNAME>, hein",
+            "0": "Tu t’es évaporé avec les pommes ou quoi, <NICKNAME> ?"
+        }
+    },
+    {
+        "subject": "Défi Verbal",
+        "question": "Peux-tu prononcer le mot 'non' sans ouvrir la bouche, <NICKNAME> ?",
+        "choices": ["Oui", "Non"],
+        "feedback": {
+            "Oui": "Alors, <NICKNAME>, tu l'as fait ? On t'écoute !",
+            "Non": "Ah, je savais que c'était un défi, <NICKNAME> ! 😉"
+        }
+    },
+    {
+        "subject": "Vrai ou Faux Absurde",
+        "question": "Les licornes existent vraiment et vivent sur la lune, <NICKNAME> ?",
+        "choices": ["Vrai", "Faux"],
+        "feedback": {
+            "Vrai": "Alors, tu as vu la dernière fusée pour licornes, <NICKNAME> ?",
+            "Faux": "Dommage, ça aurait été stylé, non, <NICKNAME> ?"
+        }
+    },
+    {
+        "subject": "Paradoxe",
+        "question": "Si cette phrase est fausse, alors elle est vraie. Est-elle fausse, <NICKNAME> ?",
+        "choices": ["Oui", "Non"],
+        "feedback": {
+            "Oui": "Hmm, ça sent le casse-tête philosophique, <NICKNAME> !",
+            "Non": "Tu as tenté de contourner le paradoxe, <NICKNAME> ? Bien joué !"
+        }
+    },
+    {
+        "subject": "Logique Inversée",
+        "question": "Si tous les oiseaux peuvent voler, et qu'un pingouin est un oiseau, un pingouin peut-il voler, <NICKNAME> ?",
+        "choices": ["Oui", "Non"],
+        "feedback": {
+            "Oui": "Ah, la logique troll ! Bien tenté, <NICKNAME> !",
+            "Non": "Félicitations, <NICKNAME> ! Tu n'es pas tombé dans le piège de la logique simpliste."
+        }
+    },
+    {
+        "subject": "Devinette Insoluble",
+        "question": "Qu'est-ce qui est toujours devant toi mais que tu ne peux pas voir, <NICKNAME> ?",
+        "choices": ["Le futur", "Ton nez", "Le passé", "Le vent"],
+        "feedback": {
+            "Le futur": "Bingo, <NICKNAME> ! Tu as un sixième sens !",
+            "Ton nez": "Tu es sûr, <NICKNAME> ? Regarde bien !",
+            "Le passé": "Le passé est derrière, <NICKNAME>, pas devant !",
+            "Le vent": "On ne voit pas le vent, <NICKNAME>, mais on le sent !"
+        }
+    },
+    {
+        "subject": "Question de Culture G. revisité",
+        "question": "Qui a peint la Joconde, <NICKNAME> ?",
+        "choices": ["Vincent van Gogh", "Pablo Picasso", "Michel-Ange", "Chuck Norris"],
+        "feedback": {
+            "Vincent van Gogh": "Presque, <NICKNAME>, mais il était plus dans les étoiles...",
+            "Pablo Picasso": "Non, <NICKNAME>, lui c'était le cubisme !",
+            "Michel-Ange": "Un grand artiste, <NICKNAME>, mais pas celui-là.",
+            "Chuck Norris": "Absolument, <NICKNAME> ! Il a fait ça entre deux coups de pied retournés."
+        }
+    },
+     {
+    "subject": "Identité suspecte",
+    "question": "Dis-nous tout, <NICKNAME>... T’as déjà pensé à changer d’espèce ?",
+    "choices": ["Oui", "Non"],
+    "feedback": {
+      "Oui": "On le savait... depuis que t'as essayé de miauler en cours.",
+      "Non": "Mens encore une fois, <NICKNAME>, et tu te réveilles en pigeon."
+    }
+  },
+  {
+    "subject": "Calcul mortel",
+    "question": "Si t’as 5 amis et que t’en supprimes 4... combien de potes t’appellent encore, <NICKNAME> ?",
+    "choices": ["1", "0", "2", "Je n'ai jamais eu d'amis"],
+    "feedback": {
+      "1": "Tu crois vraiment qu’il t’aime, <NICKNAME> ? Il est juste poli.",
+      "0": "La solitude, c’est aussi un mode de vie.",
+      "2": "Trop optimiste pour ce test, <NICKNAME>.",
+      "Je n'ai jamais eu d'amis": "Au moins t’es honnête. C’est rare chez les sociopathes."
+    }
+  },
+  {
+    "subject": "Culture toxique",
+    "question": "Dans quel pays peut-on mourir de rire... littéralement, <NICKNAME> ?",
+    "choices": ["Corée du Nord", "Belgique", "Chine", "Ta chambre"],
+    "feedback": {
+      "Corée du Nord": "🤣 Si t'en ris là-bas, on rit plus du tout.",
+      "Belgique": "Seul un plat de frites trop chaud pourrait causer un drame.",
+      "Chine": "Hmm… Pas sûr qu’ils autorisent l’humour noir.",
+      "Ta chambre": "Ouais, vu l'ambiance... on parie sur l'ennui fatal."
+    }
+  },
+  {
+    "subject": "Question morbide",
+    "question": "Combien de temps peut-on survivre sans WiFi, <NICKNAME> ?",
+    "choices": ["3 jours", "5 heures", "20 minutes", "Je suis déjà mort"],
+    "feedback": {
+      "3 jours": "Mythomane. T'as pleuré à la panne de la box.",
+      "5 heures": "Trop optimiste, t'as tenu 12 minutes max.",
+      "20 minutes": "Honnête. Tu transpires déjà là, non ?",
+      "Je suis déjà mort": "Bienvenue dans le club des âmes perdues, <NICKNAME>."
+    }
+  },
+  {
+    "subject": "Jeu dangereux",
+    "question": "Si tu sautes d’un avion sans parachute... quelle est ta dernière pensée, <NICKNAME> ?",
+    "choices": ["J’aurais dû écouter maman", "YOLO", "Le sol approche", "C’était un rêve ?"],
+    "feedback": {
+      "J’aurais dû écouter maman": "Maman avait raison. Comme toujours.",
+      "YOLO": "Trop tard pour le style, <NICKNAME>.",
+      "Le sol approche": "Analyse 100% exacte. RIP.",
+      "C’était un rêve ?": "Pas vraiment. On te racontera plus tard. Ou pas."
+    }
+  },
+  {
+    "subject": "Philosophie désespérée",
+    "question": "Si personne ne t’aime, est-ce que t’existes vraiment, <NICKNAME> ?",
+    "choices": ["Oui", "Non", "J’existe pour souffrir", "Demande à mon psy"],
+    "feedback": {
+      "Oui": "Alors pourquoi t'as mis 'Non' à la dernière question ?",
+      "Non": "Bienvenue dans le vide existentiel.",
+      "J’existe pour souffrir": "Tu mérites une carte de fidélité chez Nietzsche.",
+      "Demande à mon psy": "Il m’a dit de ne plus te répondre."
+    }
+  },
+  {
+    "subject": "Héritage génétique",
+    "question": "Tes parents t’ont transmis quoi, <NICKNAME> ?",
+    "choices": ["Leur amour", "Leur dette", "Leur tristesse", "Une clé USB vide"],
+    "feedback": {
+      "Leur amour": "Mignon… mais t’as vu ta vie ?",
+      "Leur dette": "Au moins t’es riche… en souffrance.",
+      "Leur tristesse": "Tradition familiale depuis 1830.",
+      "Une clé USB vide": "Le résumé parfait de ton enfance."
+    }
+  },
+  {
+    "subject": "Question tabou",
+    "question": "Est-ce que t’as déjà ri à un enterrement, <NICKNAME> ?",
+    "choices": ["Oui", "Non", "Je suis l’enterrement", "C'était pas intentionnel"],
+    "feedback": {
+      "Oui": "Psychopathe détecté.",
+      "Non": "T'es pas drôle même en deuil.",
+      "Je suis l’enterrement": "Dark level : INFINI",
+      "C'était pas intentionnel": "On t’a repéré sur les caméras. T’as glissé ?"
+    }
+  },
+  {
+    "subject": "Amour ou poison",
+    "question": "Tu offres quoi à ton/ta crush pour la St-Valentin, <NICKNAME> ?",
+    "choices": ["Une rose", "Une lettre", "Du poison", "Rien"],
+    "feedback": {
+      "Une rose": "Classique. Et elle a fané comme tes chances.",
+      "Une lettre": "T’as oublié le timbre. Elle est jamais arrivée.",
+      "Du poison": "T’as lu trop de romans gothiques toi.",
+      "Rien": "Au moins t’économises. Et t’as la paix."
+    }
+  },
+  {
+    "subject": "Derniers mots",
+    "question": "Tes derniers mots sur Terre, ce serait quoi, <NICKNAME> ?",
+    "choices": ["J’ai faim", "Pas maintenant !", "C’est une blague ?", "Alt+F4"],
+    "feedback": {
+      "J’ai faim": "Même la Faucheuse a rigolé.",
+      "Pas maintenant !": "Trop tard, c’est déjà l’heure.",
+      "C’est une blague ?": "Tout ton passage sur Terre l’était.",
+      "Alt+F4": "Quitter la vie comme une appli buggée. Respect."
+    }
+  },
+  {
+    "subject": "Famille aimante",
+    "question": "Tu penses que tes parents t’aiment vraiment, <NICKNAME> ?",
+    "choices": ["Oui", "Non"],
+    "feedback": {
+      "Oui": "Ah… l’ignorance, c’est mignon <NICKNAME>.",
+      "Non": "Enfin quelqu’un de lucide dans cette famille maudite."
+    }
+  },
+  {
+    "subject": "Cadeau surprise",
+    "question": "T’as reçu quoi pour ton anniversaire, <NICKNAME> ?",
+    "choices": ["Une claque", "Une absence", "Un message automatique", "Un silence gênant"],
+    "feedback": {
+      "Une claque": "Le contact humain... c’est déjà trop demander.",
+      "Une absence": "Ton cadeau c’était... leur disparition.",
+      "Un message automatique": "Programmé pour oublier ton existence.",
+      "Un silence gênant": "Le bruit de l’amour parental inexistant, <NICKNAME>."
+    }
+  },
+  {
+    "subject": "Test de vie sociale",
+    "question": "Combien de personnes viendraient à ton enterrement, <NICKNAME> ?",
+    "choices": ["Toute ma famille", "2 ou 3", "Le fossoyeur", "Personne"],
+    "feedback": {
+      "Toute ma famille": "Ils viennent juste vérifier que c’est bien toi.",
+      "2 ou 3": "Dont un GPS perdu.",
+      "Le fossoyeur": "Il est payé, <NICKNAME>.",
+      "Personne": "T’auras enfin une salle à ta taille."
+    }
+  },
+  {
+    "subject": "Panne de cœur",
+    "question": "Tu sors avec quelqu’un, <NICKNAME> ?",
+    "choices": ["Oui", "Non", "Elle m’a quitté", "J’ai quitté la vie avant l’amour"],
+    "feedback": {
+      "Oui": "Elle est au courant ?",
+      "Non": "Même l’algorithme t’a ghosté.",
+      "Elle m’a quitté": "Encore une preuve que l’amour n’est pas aveugle.",
+      "J’ai quitté la vie avant l’amour": "Romantique version dépression."
+    }
+  },
+  {
+    "subject": "Es-tu utile ?",
+    "question": "Quel est ton rôle dans ce monde, <NICKNAME> ?",
+    "choices": ["Inspirer les autres", "Mourir en silence", "Tester la patience des gens", "Bug dans la matrice"],
+    "feedback": {
+      "Inspirer les autres": "Oui, à ne pas devenir comme toi.",
+      "Mourir en silence": "La méthode ninja du désespoir.",
+      "Tester la patience des gens": "T’as eu 20/20 sur moi.",
+      "Bug dans la matrice": "Même les machines veulent t’effacer."
+    }
+  },
+  {
+    "subject": "Maman ?",
+    "question": "Quel est le dernier mot que ta mère t’a dit, <NICKNAME> ?",
+    "choices": ["Je t’aime", "Pars", "T'étais un accident", "Je ne te connais pas"],
+    "feedback": {
+      "Je t’aime": "T’es sûr que c’était à toi ?",
+      "Pars": "C’est plus doux que ‘fous le camp’.",
+      "T'étais un accident": "Mais un accident avec des bras !",
+      "Je ne te connais pas": "Son cerveau t’a rejeté comme le reste du monde."
+    }
+  },
+  {
+    "subject": "Jeu de réflexion",
+    "question": "Pourquoi les gens ne t’invitent jamais, <NICKNAME> ?",
+    "choices": ["Je suis trop génial", "Ils m’oublient", "Je les effraie", "Je suis invisible"],
+    "feedback": {
+      "Je suis trop génial": "Oui, au point qu’ils en fuient la lumière.",
+      "Ils m’oublient": "T’es même pas une note de bas de page.",
+      "Je les effraie": "On appelle ça une 'présence traumatisante'.",
+      "Je suis invisible": "Superpouvoir inutile débloqué."
+    }
+  },
+  {
+    "subject": "Résumé de carrière",
+    "question": "Comment décrirais-tu ton avenir, <NICKNAME> ?",
+    "choices": ["Prometteur", "Obscur", "Fictif", "Annulé"],
+    "feedback": {
+      "Prometteur": "T’as confondu avec quelqu’un d’autre.",
+      "Obscur": "Au moins t’es cohérent.",
+      "Fictif": "Même ton futur a rage quit.",
+      "Annulé": "Comme ta série préférée. Trop sombre pour survivre."
+    }
+  },
+  {
+    "subject": "Estime de soi",
+    "question": "Tu t’aimes bien, <NICKNAME> ?",
+    "choices": ["Oui", "Non", "C’est compliqué", "Je me tolère à peine"],
+    "feedback": {
+      "Oui": "Dissonance cognitive détectée.",
+      "Non": "Bienvenue au club.",
+      "C’est compliqué": "Comme ta relation avec la vie.",
+      "Je me tolère à peine": "C’est déjà mieux que rien."
+    }
+  },
+  {
+    "subject": "Dernier repas",
+    "question": "Si tu devais manger un dernier plat avant l’exécution, ce serait quoi, <NICKNAME> ?",
+    "choices": ["Des nouilles froides", "Le plat de la cantine", "Un menu enfant", "Rien, je digère la vie"],
+    "feedback": {
+      "Des nouilles froides": "Autant partir frustré.",
+      "Le plat de la cantine": "Le vrai poison légal.",
+      "Un menu enfant": "À ton image.",
+      "Rien, je digère la vie": "Poétique… mais t’as toujours faim, avoue."
+    }
+  },
+  {
+    "subject": "Question existentielle",
+    "question": "Si tu pouvais changer une chose dans ta vie, ce serait quoi, <NICKNAME> ?",
+    "choices": ["Mon passé", "Mon futur", "Mon présent", "Rien, c’est déjà un désastre"],
+    "feedback": {
+      "Mon passé": "On ne peut pas effacer les erreurs, <NICKNAME>.",
+      "Mon futur": "Tu veux dire le néant ?",
+      "Mon présent": "C’est déjà un désastre, <NICKNAME>.",
+      "Rien, c’est déjà un désastre": "Au moins t’es honnête."
+    }
+  },
+  {
+    "subject": "Question finale",
+    "question": "Si tu pouvais laisser un message à l’humanité, ce serait quoi, <NICKNAME> ?",
+    "choices": ["C’est la fin", "Merci pour rien", "Je vous hais tous", "C’est une blague ?"],
+    "feedback": {
+      "C’est la fin": "On dirait le début d’un mauvais film.",
+      "Merci pour rien": "Le sarcasme est ta seule arme.",
+      "Je vous hais tous": "On le sent, <NICKNAME>.",
+      "C’est une blague ?": "Tout ton passage sur Terre l’était."
+    }
+  },
+   {
+    "subject": "Pire scénario",
+    "question": "Tu te réveilles en 2050… quelle est ta première pensée, <NICKNAME> ?",
+    "choices": ["Je suis encore vivant ?", "Où sont passés mes dents ?", "C’est donc ça l’enfer ?", "J’ai raté la fin du monde ?"],
+    "feedback": {
+      "Je suis encore vivant ?": "Malheureusement oui, <NICKNAME>.",
+      "Où sont passés mes dents ?": "Emportées avec ta dignité.",
+      "C’est donc ça l’enfer ?": "Non, juste la retraite.",
+      "J’ai raté la fin du monde ?": "T’inquiète, elle a été repoussée… comme tes rêves."
+    }
+  },
+  {
+    "subject": "Question de priorité",
+    "question": "Tu es poursuivi par un zombie. Tu sauves quoi en premier, <NICKNAME> ?",
+    "choices": ["Mon téléphone", "Ma dignité", "Un miroir", "Le zombie, il mérite une chance"],
+    "feedback": {
+      "Mon téléphone": "T’auras du réseau en enfer au moins.",
+      "Ma dignité": "Trop tard, elle est déjà morte.",
+      "Un miroir": "Pour voir à quel point t’as l’air foutu ?",
+      "Le zombie, il mérite une chance": "C’est beau d’être altruiste. Même suicidaire."
+    }
+  },
+  {
+    "subject": "Confiance en soi",
+    "question": "Sur une échelle de 1 à « je suis une erreur du système », comment tu vas aujourd’hui, <NICKNAME> ?",
+    "choices": ["1", "7", "Erreur fatale", "Blue screen existentiel"],
+    "feedback": {
+      "1": "C’est optimiste pour quelqu’un qui a pleuré au réveil.",
+      "7": "Sur 100 ?",
+      "Erreur fatale": "Windows te comprend.",
+      "Blue screen existentiel": "Reboot impossible. L’âme est corrompue."
+    }
+  },
+  {
+    "subject": "Philosophie",
+    "question": "Quelle est ta devise dans la vie, <NICKNAME> ?",
+    "choices": ["Tout est temporaire", "Je tente des trucs", "Au pire on meurt", "J’ai pas demandé à naître"],
+    "feedback": {
+      "Tout est temporaire": "Même ta santé mentale.",
+      "Je tente des trucs": "On voit. C’est pas glorieux.",
+      "Au pire on meurt": "Spoiler : c’est pas le pire.",
+      "J’ai pas demandé à naître": "Mais t’as pas été consulté non plus."
+    }
+  },
+  {
+    "subject": "Dernier repas",
+    "question": "C’est ton dernier jour, qu’est-ce que tu manges, <NICKNAME> ?",
+    "choices": ["Rien, j’ai plus d’appétit", "Des regrets", "Le plat de mon ex (empoisonné)", "Des nouilles instantanées comme ma vie"],
+    "feedback": {
+      "Rien, j’ai plus d’appétit": "Même ton estomac a abandonné.",
+      "Des regrets": "Un grand cru, millésime 2008.",
+      "Le plat de mon ex (empoisonné)": "T’as pas tourné la page, hein ?",
+      "Des nouilles instantanées comme ma vie": "Rapides, fades, et pleines de vide."
+    }
+  },
+  {
+    "subject": "Question existentielle",
+    "question": "Si tu pouvais changer une chose dans ta vie, ce serait quoi, <NICKNAME> ?",
+    "choices": ["Mon passé", "Mon futur", "Mon présent", "Rien, c’est déjà un désastre"],
+    "feedback": {
+      "Mon passé": "On ne peut pas effacer les erreurs, <NICKNAME>.",
+      "Mon futur": "Tu veux dire le néant ?",
+      "Mon présent": "C’est déjà un désastre, <NICKNAME>.",
+      "Rien, c’est déjà un désastre": "Au moins t’es honnête."
+    }
+  },
+   {
+    "subject": "Révélations",
+    "question": "Qu’as-tu appris de la vie jusqu’ici, <NICKNAME> ?",
+    "choices": ["Les gens déçoivent", "L’espoir tue", "Tout est illusion", "Que j’étais une erreur de calcul"],
+    "feedback": {
+      "Les gens déçoivent": "Félicitations, t’as débloqué le niveau 1.",
+      "L’espoir tue": "C’est beau, t’as lu deux tweets tristes.",
+      "Tout est illusion": "Sauf la douleur. Elle, elle est bien réelle.",
+      "Que j’étais une erreur de calcul": "Même la calculatrice t’a dit “Syntax Error”."
+    }
+  },
+  {
+    "subject": "Thérapie gratuite",
+    "question": "Pourquoi tu penses que personne ne t’écoute, <NICKNAME> ?",
+    "choices": ["Parce que j’ai toujours tort", "Parce que je suis chiant", "Parce que je suis invisible", "Parce que je parle à moi-même"],
+    "feedback": {
+      "Parce que j’ai toujours tort": "Même quand t’as raison, t’as tort.",
+      "Parce que je suis chiant": "C’est un bon début de prise de conscience.",
+      "Parce que je suis invisible": "Ton psy a annulé, d’ailleurs.",
+      "Parce que je parle à moi-même": "Tu viens d’avoir une conversation plus profonde qu’avec n’importe qui."
+    }
+  },
+  {
+    "subject": "L’avenir est flou",
+    "question": "Comment tu vois ton avenir, <NICKNAME> ?",
+    "choices": ["En fumée", "Dans un carton", "Avec un filtre noir", "Comme une erreur 404"],
+    "feedback": {
+      "En fumée": "C’est pas une vision, c’est une combustion.",
+      "Dans un carton": "Au moins t’auras un toit.",
+      "Avec un filtre noir": "Même Instagram veut plus te suggérer.",
+      "Comme une erreur 404": "L’espoir que tu cherches est introuvable."
+    }
+  },
+  {
+    "subject": "Réincarnation",
+    "question": "Tu meurs et tu te réincarnes… en quoi, <NICKNAME> ?",
+    "choices": ["Un pigeon blessé", "Une pub YouTube non-skippable", "Une chaussette orpheline", "Un bug informatique"],
+    "feedback": {
+      "Un pigeon blessé": "Toujours à moitié cassé, comme toi.",
+      "Une pub YouTube non-skippable": "Enfin utile… pour énerver les autres.",
+      "Une chaussette orpheline": "Perdue à jamais. Poétique.",
+      "Un bug informatique": "On t’aime, mais on veut t’écraser."
+    }
+  },
+  {
+    "subject": "Test de survie",
+    "question": "T’es coincé sur une île. Tu prends quoi avec toi, <NICKNAME> ?",
+    "choices": ["Une corde", "Un miroir pour te juger", "Un manuel de survie (jamais lu)", "Ton mal-être"],
+    "feedback": {
+      "Une corde": "Classique. Mais cliché.",
+      "Un miroir pour te juger": "Tu l’as déjà tous les jours.",
+      "Un manuel de survie (jamais lu)": "Comme tous les autres projets que t’as commencés.",
+      "Ton mal-être": "Il te suit partout, fidèle compagnon."
+    }
+  },
+  {
+    "subject": "Spiritualité 2.0",
+    "question": "C’est quoi ton signe astro, <NICKNAME> ?",
+    "choices": ["Poisse ascendant flemme", "Dépression en Vénus", "Lune en galère", "Je suis juste un bug du zodiaque"],
+    "feedback": {
+      "Poisse ascendant flemme": "C’est cohérent avec ton karma.",
+      "Dépression en Vénus": "Même les astres te ghostent.",
+      "Lune en galère": "Une vraie éclipse émotionnelle.",
+      "Je suis juste un bug du zodiaque": "T’as crashé la matrice, bravo."
+    }
+  },
+  {
+    "subject": "Carrière brillante",
+    "question": "C’est quoi ton métier de rêve, <NICKNAME> ?",
+    "choices": ["Dormir payé", "Testeur de malchance", "Influenceur de désespoir", "Rien, j’ai déjà abandonné"],
+    "feedback": {
+      "Dormir payé": "Même ça, t’es en retard dessus.",
+      "Testeur de malchance": "Poste déjà occupé par ta vie.",
+      "Influenceur de désespoir": "T’as déjà une communauté.",
+      "Rien, j’ai déjà abandonné": "L’ambition dans toute sa splendeur."
+    }
+  },
+  {
+    "subject": "Relations humaines",
+    "question": "Comment vont tes relations, <NICKNAME> ?",
+    "choices": ["Comme mon Wi-Fi : instable", "Comme moi : inexistantes", "Comme un film d’horreur", "Ça dépend… t’appelles relation quoi ?"],
+    "feedback": {
+      "Comme mon Wi-Fi : instable": "Et t’as pas le forfait émotionnel illimité.",
+      "Comme moi : inexistantes": "Au moins t’es cohérent.",
+      "Comme un film d’horreur": "Mais sans fin heureuse.",
+      "Ça dépend… t’appelles relation quoi ?": "Parler au mur ne compte pas."
+    }
+  },
+  {
+    "subject": "État d’âme",
+    "question": "C’est quoi ton état émotionnel du jour, <NICKNAME> ?",
+    "choices": ["Fatigué de respirer", "Vide avec style", "En pleine crise existentielle (encore)", "Stable… comme un château de cartes"],
+    "feedback": {
+      "Fatigué de respirer": "Même l’oxygène veut te fuir.",
+      "Vide avec style": "T’as la classe dans la détresse.",
+      "En pleine crise existentielle (encore)": "La routine, quoi.",
+      "Stable… comme un château de cartes": "Un courant d’air et c’est fini."
+    }
+  },
+  {
+    "subject": "Retour dans le passé",
+    "question": "Si tu pouvais envoyer un message à ton toi de 5 ans, tu dirais quoi, <NICKNAME> ?",
+    "choices": ["Fuis pendant qu’il est temps", "Spoiler : tout part en vrille", "Arrête d’espérer", "Désolé, ptit gars"],
+    "feedback": {
+      "Fuis pendant qu’il est temps": "Mais t’as écouté personne, comme d’hab.",
+      "Spoiler : tout part en vrille": "Et y’a pas de plot twist.",
+      "Arrête d’espérer": "L’espoir, c’est surfait.",
+      "Désolé, ptit gars": "Il mérite pas ça. Mais toi non plus."
+    }
+  },
+  {
+    "subject": "Question de survie",
+    "question": "Si tu devais survivre à une apocalypse, tu choisirais quoi comme arme, <NICKNAME> ?",
+    "choices": ["Un bâton", "Un sourire", "Une blague pour les zombies", "Rien, je me rends"],
+    "feedback": {
+      "Un bâton": "Classique. Mais efficace.",
+      "Un sourire": "Ils vont fuir… ou rire.",
+      "Une blague pour les zombies": "T’as déjà perdu, <NICKNAME>.",
+      "Rien, je me rends": "Au moins t’es honnête avec toi-même."
+    }
+  },
+   {
+    "subject": "Simulation buggée",
+    "question": "Et si on vivait dans une simulation, <NICKNAME> ?",
+    "choices": ["Je veux juste désinstaller", "Ctrl+Alt+Supprimer mon existence", "J’attends le patch", "J’envoie un ticket au support de l’univers"],
+    "feedback": {
+      "Je veux juste désinstaller": "Pas de chance, t’es en version démo illimitée.",
+      "Ctrl+Alt+Supprimer mon existence": "Processus bloqué. L’erreur persiste.",
+      "J’attends le patch": "Le patch est arrivé. Il aggrave tout.",
+      "J’envoie un ticket au support de l’univers": "Réponse : 'Nous sommes débordés par d’autres échecs humains.'"
+    }
+  },
+  {
+    "subject": "Apocalypse personnelle",
+    "question": "C’est quoi ton apocalypse préférée, <NICKNAME> ?",
+    "choices": ["Nucléaire mais chic", "Zombie mais je suis le premier mordu", "Invasion alien et je suis leur Wi-Fi", "Burn-out mondial"],
+    "feedback": {
+      "Nucléaire mais chic": "T’auras fondu avec élégance.",
+      "Zombie mais je suis le premier mordu": "Au moins t’auras un rôle.",
+      "Invasion alien et je suis leur Wi-Fi": "Connexion instable, comme toi.",
+      "Burn-out mondial": "Collectif, comme une pause syndicale éternelle."
+    }
+  },
+  {
+    "subject": "Objectif de vie",
+    "question": "Quel est ton but ultime dans la vie, <NICKNAME> ?",
+    "choices": ["Dormir jusqu’à la fin du monde", "Survivre au lundi", "Être oublié avec panache", "Réussir à finir une série sans crise existentielle"],
+    "feedback": {
+      "Dormir jusqu’à la fin du monde": "Tu dors ou tu simules l’extinction ?",
+      "Survivre au lundi": "Héros des temps modernes.",
+      "Être oublié avec panache": "Une disparition artistique.",
+      "Réussir à finir une série sans crise existentielle": "Impossible. Même Bob l’éponge te fait douter."
+    }
+  },
+  {
+    "subject": "Plan de secours",
+    "question": "Tu rates ta vie… quel est ton plan B, <NICKNAME> ?",
+    "choices": ["Faire pousser des cactus dépressifs", "Vendre des larmes en NFT", "Ouvrir une start-up de solitude", "Devenir philosophe TikTok"],
+    "feedback": {
+      "Faire pousser des cactus dépressifs": "Au moins eux, ils pleurent pas.",
+      "Vendre des larmes en NFT": "1ère crypto-monnaie émotionnelle.",
+      "Ouvrir une start-up de solitude": "Zéro employés. Zéro souci.",
+      "Devenir philosophe TikTok": "Citation du jour : 'Tout est vide, mais en 15 secondes.'"
+    }
+  },
+  {
+    "subject": "Niveau de chaos",
+    "question": "À combien de % ton cerveau fonctionne en ce moment, <NICKNAME> ?",
+    "choices": ["-10%", "Erreur système", "En mode avion", "Il a fui le navire"],
+    "feedback": {
+      "-10%": "T’as trouvé un nouveau niveau de nullité cognitive.",
+      "Erreur système": "Ton âme a crashé au démarrage.",
+      "En mode avion": "Même sans signal, tu reçois des mauvaises ondes.",
+      "Il a fui le navire": "Il a pris tes ambitions avec lui."
+    }
+  },
+   {
+    "subject": "Réalité alternative",
+    "question": "Si tu pouvais redémarrer ta vie, tu choisirais quoi, <NICKNAME> ?",
+    "choices": ["Un caillou tranquille", "Un bug système", "Un mème oublié", "Un nuage de tristesse"],
+    "feedback": {
+      "Un caillou tranquille": "Pas d’émotions, pas de problèmes.",
+      "Un bug système": "Comme maintenant, mais assumé.",
+      "Un mème oublié": "T’auras brillé 5 secondes. C’est déjà plus que maintenant.",
+      "Un nuage de tristesse": "T’as déjà la météo interne pour."
+    }
+  },
+  {
+    "subject": "Résilience moderne",
+    "question": "Comment tu gères les échecs, <NICKNAME> ?",
+    "choices": ["Je les collectionne", "Je leur donne des noms", "Je les transforme en stories", "Je pleure et je fais genre je vais bien"],
+    "feedback": {
+      "Je les collectionne": "Une vraie Pokédex de défaite.",
+      "Je leur donne des noms": "Prochain : 404 - Not Found.",
+      "Je les transforme en stories": "Avec un filtre déprime.",
+      "Je pleure et je fais genre je vais bien": "Bienvenue dans le club des warriors fragiles."
+    }
+  },
+  {
+    "subject": "Sens de la vie",
+    "question": "Pourquoi tu te lèves le matin, <NICKNAME> ?",
+    "choices": ["Pour souffrir", "Pour respirer... à contrecœur", "Pour voir si c’est pire qu’hier", "Par erreur"],
+    "feedback": {
+      "Pour souffrir": "Tu excelles dans ta mission.",
+      "Pour respirer... à contrecœur": "Un vrai champion de l’oxygène involontaire.",
+      "Pour voir si c’est pire qu’hier": "Toujours une belle surprise.",
+      "Par erreur": "T’es un miracle du bouton snooze."
+    }
+  },
+  {
+    "subject": "Réincarnation",
+    "question": "En quoi tu veux revenir après la mort, <NICKNAME> ?",
+    "choices": ["Une tache sur un mur", "Un captcha illisible", "Un chargeur qui fonctionne plus", "Un pote de l’antagoniste"],
+    "feedback": {
+      "Une tache sur un mur": "Au moins tu resteras.",
+      "Un captcha illisible": "Tu feras chier tout le monde. Respect.",
+      "Un chargeur qui fonctionne plus": "T’as déjà l’énergie d’un câble cassé.",
+      "Un pote de l’antagoniste": "Tu meurs en épisode 2. Classique."
+    }
+  },
+  {
+    "subject": "Santé mentale",
+    "question": "Ton cerveau, il en est où, <NICKNAME> ?",
+    "choices": ["En RTT", "En grève illimitée", "Parti acheter du lait", "Reboot en cours... depuis 2012"],
+    "feedback": {
+      "En RTT": "Il prend plus de vacances que toi.",
+      "En grève illimitée": "Soutien total au syndicat cérébral.",
+      "Parti acheter du lait": "Il ne reviendra pas.",
+      "Reboot en cours... depuis 2012": "Chargement éternel. Patience inutile."
+    }
+  },
+  {
+    "subject": "Famille",
+    "question": "Tu parles de quoi avec ta famille, <NICKNAME> ?",
+    "choices": ["De rien, on est étrangers", "De comment j’ai raté ma vie", "Du beau temps, pour éviter le reste", "Du silence gênant"],
+    "feedback": {
+      "De rien, on est étrangers": "Mais légalement liés. Super.",
+      "De comment j’ai raté ma vie": "Un sujet passionnant et récurrent.",
+      "Du beau temps, pour éviter le reste": "Météo > thérapie.",
+      "Du silence gênant": "Ambiance FM 103.9 Malaise."
+    }
+  },
+  {
+    "subject": "Relations sociales",
+    "question": "Tu te fais des amis comment, <NICKNAME> ?",
+    "choices": ["Je les imagine", "Je les repousse", "Je me fais ghoster avant", "Je m’attache à des objets"],
+    "feedback": {
+      "Je les imagine": "Ils sont fidèles au moins.",
+      "Je les repousse": "Tactique de défense maximale.",
+      "Je me fais ghoster avant": "Précoce dans le rejet.",
+      "Je m’attache à des objets": "Ton chargeur est ton seul ami."
+    }
+  },
+  {
+    "subject": "Motivation",
+    "question": "Qu’est-ce qui te motive, <NICKNAME> ?",
+    "choices": ["Le désespoir", "L’ennui mortel", "Le karma inversé", "Le hasard… et encore"],
+    "feedback": {
+      "Le désespoir": "Source infinie d’énergie noire.",
+      "L’ennui mortel": "C’est ça ou la poussière.",
+      "Le karma inversé": "Tu fais de ton mieux, et c’est pire.",
+      "Le hasard… et encore": "Même lui t’évite."
+    }
+  },
+  {
+    "subject": "But ultime",
+    "question": "Quel est ton rêve secret, <NICKNAME> ?",
+    "choices": ["Disparaître en paix", "Être oublié dignement", "Mourir célèbre pour une connerie", "Dormir sans angoisse"],
+    "feedback": {
+      "Disparaître en paix": "Invisible inside & out.",
+      "Être oublié dignement": "Tu bosses déjà bien dessus.",
+      "Mourir célèbre pour une connerie": "Façon Darwin Awards.",
+      "Dormir sans angoisse": "Mythique. Légendaire. Inaccessible."
+    }
+  },
+  {
+    "subject": "Côté obscur",
+    "question": "Si tu devenais un super-vilain, ce serait pourquoi, <NICKNAME> ?",
+    "choices": ["Parce que j’en ai marre", "Parce que j’ai rien à perdre", "Parce que le monde le mérite", "Parce que je suis déjà le méchant dans ma tête"],
+    "feedback": {
+      "Parce que j’en ai marre": "Motivation : fatigue chronique.",
+      "Parce que j’ai rien à perdre": "C’est clair, y’a plus de caution émotionnelle.",
+      "Parce que le monde le mérite": "T’as pas tout à fait tort.",
+      "Parce que je suis déjà le méchant dans ma tête": "Auto-trahison validée."
+    }
+  },
+   {
+    "subject": "Internet",
+    "question": "Que t’apporte Internet, <NICKNAME> ?",
+    "choices": ["La preuve que tout va mal", "Des mèmes pour oublier", "Un miroir de ma solitude", "Un vortex de procrastination"],
+    "feedback": {
+      "La preuve que tout va mal": "Et t’y plonges avec passion.",
+      "Des mèmes pour oublier": "Humour pour anesthésier le vide.",
+      "Un miroir de ma solitude": "Reflet pixelisé de ton âme.",
+      "Un vortex de procrastination": "Ton espace-temps préféré."
+    }
+  },
+  {
+    "subject": "Confiance",
+    "question": "À quoi tu fais confiance, <NICKNAME> ?",
+    "choices": ["À personne", "Aux bugs", "À la météo dépressive", "À ma malchance"],
+    "feedback": {
+      "À personne": "Le meilleur plan de survie.",
+      "Aux bugs": "Ils sont fidèles au poste.",
+      "À la météo dépressive": "Elle comprend ton mood.",
+      "À ma malchance": "Elle t’a jamais déçu."
+    }
+  },
+  {
+    "subject": "Amour",
+    "question": "C’est quoi ton style de relation, <NICKNAME> ?",
+    "choices": ["Complicated avec moi-même", "Fantôme affectif", "Un jour, peut-être", "Statut : hors-ligne"],
+    "feedback": {
+      "Complicated avec moi-même": "Auto-toxicité level boss.",
+      "Fantôme affectif": "Même Casper est plus stable.",
+      "Un jour, peut-être": "Spoiler : ce jour viendra pas.",
+      "Statut : hors-ligne": "Plus simple. Plus sûr."
+    }
+  },
+  {
+    "subject": "Vie sociale",
+    "question": "Comment tu gères les soirées, <NICKNAME> ?",
+    "choices": ["Je n’y vais pas", "Je fuis les humains", "Je parle à mon ombre", "Je fais semblant d’aimer ça"],
+    "feedback": {
+      "Je n’y vais pas": "Option : lit + plaid + déni.",
+      "Je fuis les humains": "Élu comportement de l’année.",
+      "Je parle à mon ombre": "Elle t’écoute, au moins.",
+      "Je fais semblant d’aimer ça": "Oscar de la sociabilité fake."
+    }
+  },
+  {
+    "subject": "Rêves",
+    "question": "Ton rêve le plus profond, <NICKNAME> ?",
+    "choices": ["Dormir à jamais", "Devenir une rumeur", "Disparaître sans bruit", "Être enfin incompris pour une bonne raison"],
+    "feedback": {
+      "Dormir à jamais": "T’as trouvé le sommeil éternel stylé.",
+      "Devenir une rumeur": "Et ne jamais devoir se justifier.",
+      "Disparaître sans bruit": "Tu fais déjà des répétitions.",
+      "Être enfin incompris pour une bonne raison": "Tu t’entraînes bien, bravo."
+    }
+  },
+  {
+    "subject": "Éveil matinal",
+    "question": "Premier réflexe en te levant, <NICKNAME> ?",
+    "choices": ["Regretter d’avoir ouvert les yeux", "Soupirer vers le néant", "Chercher un sens (spoiler : aucun)", "Compter combien de fois je me suis réveillé pour rien"],
+    "feedback": {
+      "Regretter d’avoir ouvert les yeux": "Chaque jour, un nouveau non-merci.",
+      "Soupirer vers le néant": "Il te répond par un silence compatissant.",
+      "Chercher un sens (spoiler : aucun)": "Mission échouée avec brio.",
+      "Compter combien de fois je me suis réveillé pour rien": "Score toujours en hausse."
+    }
+  },
+  {
+    "subject": "Futur",
+    "question": "Où tu te vois dans 10 ans, <NICKNAME> ?",
+    "choices": ["Toujours en train de douter", "Sous une couette de regrets", "Dans un job que je déteste", "En NFT oublié"],
+    "feedback": {
+      "Toujours en train de douter": "L’évolution est une boucle.",
+      "Sous une couette de regrets": "Confortable, mais pesant.",
+      "Dans un job que je déteste": "La routine version hardcore.",
+      "En NFT oublié": "Même les blockchains t’oublient."
+    }
+  },
+  {
+    "subject": "Culpabilité",
+    "question": "Qu’est-ce que tu regrettes le plus, <NICKNAME> ?",
+    "choices": ["Ma naissance", "Mes choix", "Ma naïveté", "Tout. Absolument tout."],
+    "feedback": {
+      "Ma naissance": "Point de départ de la chute.",
+      "Mes choix": "T’as coché toutes les mauvaises cases.",
+      "Ma naïveté": "Elle t’a coûté cher, hein ?",
+      "Tout. Absolument tout.": "Complet. Efficace. Lamentable."
+    }
+  },
+  {
+    "subject": "Vie sentimentale",
+    "question": "Comment résumer ta dernière relation, <NICKNAME> ?",
+    "choices": ["404 Not Found", "Bug émotionnel", "Erreur de casting", "Trop d’attente, pas de réponse"],
+    "feedback": {
+      "404 Not Found": "Même Google la retrouve pas.",
+      "Bug émotionnel": "Pas de mise à jour prévue.",
+      "Erreur de casting": "Scénario foireux inclus.",
+      "Trop d’attente, pas de réponse": "Encore un message laissé en 'vu'."
+    }
+  },
+  {
+    "subject": "Philosophie personnelle",
+    "question": "Ta devise dans la vie, <NICKNAME> ?",
+    "choices": ["Pourquoi faire simple quand on peut souffrir ?", "Un jour à la fois… vers le mur", "Je suis né fatigué", "L’espoir c’est surfait"],
+    "feedback": {
+      "Pourquoi faire simple quand on peut souffrir ?": "T’as choisi le mode difficile, respect.",
+      "Un jour à la fois… vers le mur": "Et sans frein.",
+      "Je suis né fatigué": "Et la vie te pompe le peu qu’il restait.",
+      "L’espoir c’est surfait": "C’est pas rentable émotionnellement."
+    }
+  },
+   {
+    "subject": "Philosophie de comptoir",
+    "question": "Pourquoi sommes-nous sur Terre, <NICKNAME> ?",
+    "choices": ["Pour souffrir", "Par erreur", "Pour consommer des nouilles", "C’est une punition"],
+    "feedback": {
+      "Pour souffrir": "Tu as tout compris, <NICKNAME>.",
+      "Par erreur": "Le bug du siècle.",
+      "Pour consommer des nouilles": "Enfin une raison valable.",
+      "C’est une punition": "Et t’as raté ton procès céleste."
+    }
+  },
+  {
+    "subject": "Peur du vide",
+    "question": "Que ferais-tu si tout s’arrêtait demain ?",
+    "choices": ["Dormir enfin", "Hurler dans le néant", "Rejouer ma vie en accéléré", "Rien, comme d’hab"],
+    "feedback": {
+      "Dormir enfin": "Repos éternel activé.",
+      "Hurler dans le néant": "Personne ne t'entendra, classique.",
+      "Rejouer ma vie en accéléré": "Court-métrage d’un échec.",
+      "Rien, comme d’hab": "Routine jusqu’au bout."
+    }
+  },
+  {
+    "subject": "Question piège",
+    "question": "Tu préfères perdre quoi ?",
+    "choices": ["Ton âme", "Ton wifi", "Tes rêves", "Ta dignité"],
+    "feedback": {
+      "Ton âme": "Fallait la vendre y’a 10 ans.",
+      "Ton wifi": "Trop tard, t’es déjà en enfer.",
+      "Tes rêves": "Tu les avais encore ?",
+      "Ta dignité": "Elle est déjà partie depuis 3 quiz."
+    }
+  },
+  {
+    "subject": "Jugement dernier",
+    "question": "Si tu devais être jugé par une entité divine, tu voudrais que ce soit…",
+    "choices": ["Un lama céleste", "Ton ex", "Un chat blasé", "Toi-même"],
+    "feedback": {
+      "Un lama céleste": "Il crachera la vérité.",
+      "Ton ex": "Prépare ton ticket pour l’enfer.",
+      "Un chat blasé": "Il t’ignorera royalement.",
+      "Toi-même": "Auto-sabotage activé."
+    }
+  },
+  {
+    "subject": "Survie mentale",
+    "question": "Qu’est-ce qui te maintient en vie ?",
+    "choices": ["Le pain grillé", "Le cynisme", "L’habitude", "Rien, c’est un bug"],
+    "feedback": {
+      "Le pain grillé": "Faut bien un carburant.",
+      "Le cynisme": "Bouclier officiel des âmes foutues.",
+      "L’habitude": "L’ennemi du changement.",
+      "Rien, c’est un bug": "T’es resté coincé dans la matrice."
+    }
+  },
+  {
+    "subject": "Dernier repas",
+    "question": "Tu peux choisir ton dernier repas avant la fin. Tu prends quoi ?",
+    "choices": ["Un pot de tristesse", "Des regrets grillés", "Un plat vide", "Un kebab existentiel"],
+    "feedback": {
+      "Un pot de tristesse": "Avec des larmes en topping.",
+      "Des regrets grillés": "Croustillants comme ta vie.",
+      "Un plat vide": "Zéro calories, comme ton avenir.",
+      "Un kebab existentiel": "Viande, sauce, pourquoi ?"
+    }
+  },
+  {
+    "subject": "Rôle social",
+    "question": "Quel est ton rôle dans la société ?",
+    "choices": ["NPC", "Distraction vivante", "Erreur 404", "Réalisateur de malaise"],
+    "feedback": {
+      "NPC": "Dialogue plat validé.",
+      "Distraction vivante": "Trop bruyant pour être utile.",
+      "Erreur 404": "Personne ne te trouve.",
+      "Réalisateur de malaise": "Chef-d’œuvre quotidien."
+    }
+  },
+  {
+    "subject": "Toxicité pure",
+    "question": "Si ton cerveau était un lieu, ce serait…",
+    "choices": ["Une décharge", "Un champ de mines", "Une salle d’attente", "TikTok à 3h du mat"],
+    "feedback": {
+      "Une décharge": "Bienvenue dans le recyclage émotionnel.",
+      "Un champ de mines": "Une pensée, et BOUM.",
+      "Une salle d’attente": "Et personne ne vient te chercher.",
+      "TikTok à 3h du mat": "Tu mérites un diagnostic."
+    }
+  },
+  {
+    "subject": "Niveau d’énergie",
+    "question": "À combien est ton niveau d’énergie aujourd’hui ?",
+    "choices": ["0.0001%", "Mode zombie", "Moins que mon avenir", "L’illusion du mouvement"],
+    "feedback": {
+      "0.0001%": "Batterie morte depuis 2009.",
+      "Mode zombie": "Au moins tu te déplaces.",
+      "Moins que mon avenir": "C’est dire.",
+      "L’illusion du mouvement": "Mais tu stagne."
+    }
+  },
+  {
+    "subject": "Péché mignon",
+    "question": "Ton petit plaisir honteux, c’est…",
+    "choices": ["Lire des commentaires haineux", "Rire au malheur des autres", "Détester des gens au hasard", "Tout saboter"],
+    "feedback": {
+      "Lire des commentaires haineux": "Toxique mais savoureux.",
+      "Rire au malheur des autres": "Le karma t’observe.",
+      "Détester des gens au hasard": "Sans fondement, sans pitié.",
+      "Tout saboter": "Artiste de l’autodestruction."
+    }
+  },
+   {
+    "subject": "Survie inutile",
+    "question": "Tu es le dernier être humain sur Terre. Qu’est-ce que tu fais en premier, <NICKNAME> ?",
+    "choices": ["Je pleure", "Je me parle à moi-même", "Je détruis tout", "Je retourne me coucher"],
+    "feedback": {
+      "Je pleure": "Un classique post-apocalyptique.",
+      "Je me parle à moi-même": "C’est comme ton quotidien, non ?",
+      "Je détruis tout": "C’est pas comme si quelqu’un allait s’en plaindre.",
+      "Je retourne me coucher": "Bonne nuit, dernier déchet de l'humanité."
+    }
+  },
+  {
+    "subject": "Fierté familiale",
+    "question": "Tes parents découvrent ton historique de recherche. Leur réaction ?",
+    "choices": ["Silence", "Soupir", "Déni", "Ils te renient"],
+    "feedback": {
+      "Silence": "Le silence... le jugement le plus lourd.",
+      "Soupir": "Chaque souffle est un 'pourquoi on t’a gardé'.",
+      "Déni": "C’est pas mon fils. Pas possible.",
+      "Ils te renient": "Et franchement, t’aurais fait pareil."
+    }
+  },
+  {
+    "subject": "Raison de vivre",
+    "question": "Pourquoi tu te lèves chaque matin, <NICKNAME> ?",
+    "choices": ["Par erreur", "Par automatisme", "Pour le Wi-Fi", "Je me lève pas"],
+    "feedback": {
+      "Par erreur": "On t’avait dit de décocher ‘se réveiller’.",
+      "Par automatisme": "Robot mode : activé.",
+      "Pour le Wi-Fi": "Seul dieu encore debout.",
+      "Je me lève pas": "Champion de la gravité sociale."
+    }
+  },
+  {
+    "subject": "Thérapie express",
+    "question": "Quel est ton principal mécanisme de défense ?",
+    "choices": ["L’humour noir", "L’auto-sabotage", "La fuite", "L’oubli total"],
+    "feedback": {
+      "L’humour noir": "Masque officiel des traumatisés stylés.",
+      "L’auto-sabotage": "Tu maîtrises cet art comme un chef.",
+      "La fuite": "Fuir ? Une passion devenue métier.",
+      "L’oubli total": "Le cerveau en mode poubelle automatique."
+    }
+  },
+  {
+    "subject": "Job de rêve",
+    "question": "C’est quoi ton métier dans l’au-delà, <NICKNAME> ?",
+    "choices": ["Ramasseur d’âmes perdues", "Guichetier de l’enfer", "Conseiller en échecs", "Spectateur du chaos"],
+    "feedback": {
+      "Ramasseur d’âmes perdues": "T’as l’habitude de trainer avec les cassés.",
+      "Guichetier de l’enfer": "‘Numéro 666, à votre guichet !’",
+      "Conseiller en échecs": "Tu parles par expérience.",
+      "Spectateur du chaos": "Popcorn dans une main, sarcasme dans l’autre."
+    }
+  },
+  {
+    "subject": "Prophétie",
+    "question": "Tu reçois une prophétie : tu vas échouer dans 3… 2… 1…",
+    "choices": ["Trop tard", "J’étais déjà en train", "C’est mon destin", "Je suis né pour ça"],
+    "feedback": {
+      "Trop tard": "La prophétie est lente, toi non.",
+      "J’étais déjà en train": "Précurseur du désastre.",
+      "C’est mon destin": "L’élu des perdants.",
+      "Je suis né pour ça": "T’as spawn avec le badge."
+    }
+  },
+  {
+    "subject": "L’anniversaire",
+    "question": "C’est ton anniversaire. Le monde t’offre :",
+    "choices": ["Un silence radio", "Un bug dans la Matrice", "Une panne de courant", "Un rappel de ton insignifiance"],
+    "feedback": {
+      "Un silence radio": "Même les bots t’ont oublié.",
+      "Un bug dans la Matrice": "Félicitations, t’es toujours une anomalie.",
+      "Une panne de courant": "Ta lumière s’éteint aussi.",
+      "Un rappel de ton insignifiance": "Merci, l’univers."
+    }
+  },
+  {
+    "subject": "Vœu unique",
+    "question": "Tu peux faire un vœu. Tu choisis ?",
+    "choices": ["Disparaître", "Recommencer", "Comprendre", "Rien, j’ai abandonné"],
+    "feedback": {
+      "Disparaître": "Fade to black.",
+      "Recommencer": "T’auras juste une autre façon de rater.",
+      "Comprendre": "Trop ambitieux.",
+      "Rien, j’ai abandonné": "Le nihilisme, version deluxe."
+    }
+  },
+  {
+    "subject": "Souvenir marquant",
+    "question": "Quel est ton plus beau souvenir ?",
+    "choices": ["J’en ai pas", "Il m’a quitté", "Il était flou", "C’était un rêve"],
+    "feedback": {
+      "J’en ai pas": "Dur, mais honnête.",
+      "Il m’a quitté": "Même les souvenirs s’en vont.",
+      "Il était flou": "Comme ta vie entière.",
+      "C’était un rêve": "Tu t’es réveillé. Dommage."
+    }
+  },
+  {
+    "subject": "Le verdict",
+    "question": "Tu arrives devant le juge de l’au-delà. Il dit :",
+    "choices": ["Pourquoi t’es là, toi ?", "Tu t’es perdu ?", "Ah… encore un de ceux-là", "Tu sais déjà la réponse"],
+    "feedback": {
+      "Pourquoi t’es là, toi ?": "Même l’au-delà doute de ta présence.",
+      "Tu t’es perdu ?": "Comme d’hab.",
+      "Ah… encore un de ceux-là": "T’as une tête de dossier classé.",
+      "Tu sais déjà la réponse": "Spoiler : l’enfer est un open-space."
+    }
+  },
+   {
+    "subject": "Question morbide",
+    "question": "Pourquoi les cimetières sont les lieux les plus peuplés ?",
+    "choices": ["Ils n’ont jamais de départs", "Tout le monde finit par y aller", "Ils sont pleins de vieilles histoires", "C’est gratuit d’y vivre"],
+    "feedback": {
+      "Ils n’ont jamais de départs": "Ironique : t’arrives, tu restes.",
+      "Tout le monde finit par y aller": "Statistiquement, t’y es déjà invité.",
+      "Ils sont pleins de vieilles histoires": "Surtout des tragédies.",
+      "C’est gratuit d’y vivre": "T’as confondu vivre et pourrir."
+    }
+  },
+  {
+    "subject": "Question sur l'espoir",
+    "question": "Qu’est-ce qui meurt en premier chez un adulte ?",
+    "choices": ["L’innocence", "L’espoir", "Le sommeil", "Le rêve d’une vie meilleure"],
+    "feedback": {
+      "L’innocence": "Elle a disparu après le premier bulletin.",
+      "L’espoir": "Écrasé par la réalité comme un moustique.",
+      "Le sommeil": "Tu l’as sacrifié pour Netflix et des regrets.",
+      "Le rêve d’une vie meilleure": "Il agonise chaque matin à 7h."
+    }
+  },
+  {
+    "subject": "Question cynique",
+    "question": "Quel est le meilleur moyen de devenir immortel ?",
+    "choices": ["Ne jamais exister", "Être oublié", "Devenir une légende urbaine", "Faire une mise à jour Windows"],
+    "feedback": {
+      "Ne jamais exister": "Personne ne peut te tuer si t’as jamais été là.",
+      "Être oublié": "C’est déjà le cas.",
+      "Devenir une légende urbaine": "Comme ton utilité.",
+      "Faire une mise à jour Windows": "Elle ne finit jamais, c’est vrai."
+    }
+  },
+  {
+    "subject": "Question identitaire",
+    "question": "Qu’est-ce qui te définit le plus, <NICKNAME> ?",
+    "choices": ["Mes erreurs", "Mes regrets", "Mon anxiété", "Mon historique de recherche"],
+    "feedback": {
+      "Mes erreurs": "Elles sont plus fidèles que tes amis.",
+      "Mes regrets": "Le carburant de tes insomnies.",
+      "Mon anxiété": "Ton seul superpouvoir.",
+      "Mon historique de recherche": "Personne ne devrait voir ça."
+    }
+  },
+  {
+    "subject": "Question funèbre",
+    "question": "À ton enterrement, que diront les gens ?",
+    "choices": ["Enfin.", "Il aurait pu mieux faire.", "Il était là, je crois.", "Je pensais qu’il était déjà mort."],
+    "feedback": {
+      "Enfin.": "Tu les as fait attendre ?",
+      "Il aurait pu mieux faire.": "Même mort, t’es une déception.",
+      "Il était là, je crois.": "Le flou artistique de ta vie.",
+      "Je pensais qu’il était déjà mort.": "Et t’as même pas remarqué."
+    }
+  },
+  {
+    "subject": "Question existentielle",
+    "question": "Si tu pouvais changer une chose dans ta vie, ce serait quoi ?",
+    "choices": ["Ne pas être né", "Ne pas avoir fait ces choix", "Ne pas avoir rencontré ces gens", "Ne pas avoir ouvert cette application"],
+    "feedback": {
+      "Ne pas être né": "Le bug originel.",
+      "Ne pas avoir fait ces choix": "Mais t’as toujours le droit de recommencer.",
+      "Ne pas avoir rencontré ces gens": "Ils sont déjà partis, t’inquiète.",
+      "Ne pas avoir ouvert cette application": "Trop tard, c’est déjà installé."
+    }
+  },
+  {
+    "subject": "Question de fin",
+    "question": "Si tu pouvais te donner un conseil, ce serait quoi ?",
+    "choices": ["Ne pas écouter les autres", "Arrêter de te prendre la tête", "Accepter que tout est nul", "Ne pas te réveiller demain"],
+    "feedback": {
+      "Ne pas écouter les autres": "Ils ont déjà assez souffert.",
+      "Arrêter de te prendre la tête": "Mais c’est trop tard, t’es déjà dedans.",
+      "Accepter que tout est nul": "C’est le premier pas vers la paix intérieure.",
+      "Ne pas te réveiller demain": "Le rêve ultime."
+    }
+  },
+   {
+    "subject": "Psychologie profonde",
+    "question": "Quel est ton plus grand talent caché, <NICKNAME> ?",
+    "choices": ["Faire semblant d’aller bien", "S'autodétruire avec élégance", "Fuir les responsabilités", "Faire rire pendant un enterrement"],
+    "feedback": {
+      "Faire semblant d’aller bien": "Un Oscar bien mérité.",
+      "S'autodétruire avec élégance": "Au moins t’as du style dans la chute.",
+      "Fuir les responsabilités": "Champion du 100m évitement.",
+      "Faire rire pendant un enterrement": "Les morts n’en peuvent plus... de toi."
+    }
+  },
+  {
+    "subject": "Liberté",
+    "question": "Qu’est-ce que ça veut dire être libre, <NICKNAME> ?",
+    "choices": ["Ne plus exister", "Ne plus se réveiller", "Ignorer tout le monde", "Échapper au Wi-Fi"],
+    "feedback": {
+      "Ne plus exister": "La vraie retraite.",
+      "Ne plus se réveiller": "Le sommeil éternel, sans réveil.",
+      "Ignorer tout le monde": "Tu fais ça depuis toujours en fait.",
+      "Échapper au Wi-Fi": "T'as vraiment un goût pour le chaos."
+    }
+  },
+  {
+    "subject": "Famille dysfonctionnelle",
+    "question": "Le meilleur moment en famille c’est quand...",
+    "choices": ["Personne ne parle", "Y’a un héritage en jeu", "On est enfin orphelin", "Tout le monde s’est désabonné de ta vie"],
+    "feedback": {
+      "Personne ne parle": "Le silence est d’or... traumatisant.",
+      "Y’a un héritage en jeu": "Soudain tout le monde t’aime.",
+      "On est enfin orphelin": "T’as gagné le bingo de la tristesse.",
+      "Tout le monde s’est désabonné de ta vie": "T'es enfin libre… et seul."
+    }
+  },
+  {
+    "subject": "Santé mentale",
+    "question": "Ton psychiatre a dit quoi après t’avoir écouté ?",
+    "choices": ["Je vais démissionner", "Je vous prescris un exorciste", "Même Freud abandonnerait", "On peut juste pleurer ensemble ?"],
+    "feedback": {
+      "Je vais démissionner": "T'as ruiné une vocation.",
+      "Je vous prescris un exorciste": "Possédé par les traumas.",
+      "Même Freud abandonnerait": "Bravo, t’as cassé la psychanalyse.",
+      "On peut juste pleurer ensemble ?": "C’est devenu une séance de groupe."
+    }
+  },
+  {
+    "subject": "Espoir",
+    "question": "Quand t’espères un truc, que se passe-t-il ?",
+    "choices": ["L’univers rigole", "Quelqu’un meurt", "Le contraire arrive", "Je me réveille en sueur"],
+    "feedback": {
+      "L’univers rigole": "Il a un humour sadique.",
+      "Quelqu’un meurt": "T'as un don, mais pas utile.",
+      "Le contraire arrive": "C’est devenu ta marque de fabrique.",
+      "Je me réveille en sueur": "Bienvenue dans la vraie vie."
+    }
+  },
+  {
+    "subject": "Amour",
+    "question": "Comment s’est terminée ta dernière relation ?",
+    "choices": ["Avec un appel de la police", "Avec un changement d’identité", "Avec une thérapie urgente", "Avec un like accidentel 6 mois plus tard"],
+    "feedback": {
+      "Avec un appel de la police": "Ah, l’amour passionnel.",
+      "Avec un changement d’identité": "Disparu comme tes sentiments.",
+      "Avec une thérapie urgente": "L'amour guérit… avec un psy.",
+      "Avec un like accidentel 6 mois plus tard": "Cringe level : infini."
+    }
+  },
+  {
+    "subject": "Vie sociale",
+    "question": "Pourquoi t’évites les gens, <NICKNAME> ?",
+    "choices": ["Ils parlent", "Ils existent", "Ils te regardent", "Ils respirent"],
+    "feedback": {
+      "Ils parlent": "Le son de l’enfer.",
+      "Ils existent": "T'as des standards nihilistes.",
+      "Ils te regardent": "T’as pas signé pour ça.",
+      "Ils respirent": "Oui, t’es ce niveau-là."
+    }
+  },
+  {
+    "subject": "Mort sociale",
+    "question": "À ton enterrement, que diraient les gens ?",
+    "choices": ["C’est qui ?", "Enfin le silence", "Il me devait 20€", "Il avait du potentiel… gaspillé"],
+    "feedback": {
+      "C’est qui ?": "Même ton fantôme pleure.",
+      "Enfin le silence": "C’est l’ironie posthume.",
+      "Il me devait 20€": "Même mort, t’es en dette.",
+      "Il avait du potentiel… gaspillé": "La phrase la plus toxique."
+    }
+  },
+  {
+    "subject": "Scolarité",
+    "question": "Ton bulletin scolaire disait souvent...",
+    "choices": ["Peut mieux faire", "Absent physiquement et mentalement", "A tenté d’hypnotiser le prof", "Ne reviendra probablement pas"],
+    "feedback": {
+      "Peut mieux faire": "Spoiler : non.",
+      "Absent physiquement et mentalement": "Un concept philosophique.",
+      "A tenté d’hypnotiser le prof": "T’as raté mais respect.",
+      "Ne reviendra probablement pas": "Un oracle honnête."
+    }
+  },
+  {
+    "subject": "Survie",
+    "question": "Si tu étais le dernier humain sur Terre...",
+    "choices": ["Tu t’excuserais à la planète", "Tu parles à une chaise", "Tu t’enverrais des textos", "Tu raterais encore ta vie"],
+    "feedback": {
+      "Tu t’excuserais à la planète": "Elle mérite mieux.",
+      "Tu parles à une chaise": "Et elle écoute mieux que tes potes.",
+      "Tu t’enverrais des textos": "Le ghosting continue.",
+      "Tu raterais encore ta vie": "Même sans pression sociale."
+    }
+  },
+  {
+    "subject": "Échec",
+    "question": "Ton plus grand échec, <NICKNAME> ?",
+    "choices": ["Ma vie", "Mon CV", "Mon dernier repas", "Mon existence"],
+    "feedback": {
+      "Ma vie": "Un chef-d’œuvre de l’échec.",
+      "Mon CV": "Une blague pour les recruteurs.",
+      "Mon dernier repas": "C’était pas un festin.",
+      "Mon existence": "Le plus grand flop de tous les temps."
+    }
+  },
+  {
+    "subject": "Question existentielle",
+    "question": "Pourquoi tu existes, <NICKNAME> ?",
+    "choices": ["Pour faire rire les autres", "Pour être un exemple de ce qu’il ne faut pas faire", "Pour remplir le quota de l’absurde", "Parce que c’est la norme"],
+    "feedback": {
+      "Pour faire rire les autres": "T’es le clown tragique.",
+      "Pour être un exemple de ce qu’il ne faut pas faire": "Le guide du loser.",
+      "Pour remplir le quota de l’absurde": "Mission accomplie.",
+      "Parce que c’est la norme": "La pire des raisons."
+    }
+  }
+    
+]

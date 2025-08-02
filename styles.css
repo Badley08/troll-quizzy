@@ -1,0 +1,469 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+  margin: 0; /* Important pour éviter les marges par défaut */
+  min-height: 100vh; /* Pour que le footer reste en bas */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pour pousser le footer vers le bas */
+}
+
+.quiz-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 20px auto; /* Ajustement des marges */
+  padding: 20px;
+  flex-grow: 1; /* Permet au conteneur de prendre l'espace disponible */
+}
+
+h1, h2 {
+  color: #ff6b6b;
+}
+
+button, input[type="text"], input[type="number"], select {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, input[type="text"]:focus, input[type="number"]:focus, select:focus {
+  background-color: #ff4757;
+  transform: translateY(-2px);
+}
+
+#choices button {
+  display: block;
+  width: calc(100% - 20px); /* Ajuster la largeur en tenant compte du padding/margin */
+  margin: 10px auto;
+}
+
+input[type="text"], input[type="number"], select {
+  width: calc(100% - 40px); /* Ajuster la largeur en tenant compte du padding */
+  box-sizing: border-box; /* Inclure padding et border dans la largeur */
+  color: #333; /* Couleur du texte dans les inputs */
+  background-color: #eee;
+  border: 1px solid #ccc;
+  font-weight: normal;
+}
+
+/* Styles pour le Popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.popup-content h2 {
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.popup-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.popup-content button {
+  margin-top: 20px;
+}
+
+/* Styles du Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.buy-me-coffee-btn {
+    background-color: #FFDD00; /* Couleur jaune de Buy Me a Coffee */
+    color: #333 !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.buy-me-coffee-btn:hover {
+    background-color: #e6cb00;
+}
+
+
+/* --- Thèmes --- */
+
+/* Light Theme (par défaut) */
+.theme-light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+.theme-light .quiz-container, .theme-light .popup-content {
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.theme-light h1, .theme-light h2 {
+  color: #ff6b6b;
+}
+.theme-light button, .theme-light input, .theme-light select {
+  background-color: #ff6b6b;
+  color: white;
+}
+.theme-light button:hover, .theme-light input:focus, .theme-light select:focus {
+  background-color: #ff4757;
+}
+.theme-light #progress-bar { /* Progress bar for light theme */
+  background-color: #ff6b6b;
+}
+
+
+/* Dark Theme */
+.theme-dark {
+  background-color: #2c3e50; /* Bleu foncé */
+  color: #ecf0f1; /* Blanc cassé */
+}
+.theme-dark .quiz-container, .theme-dark .popup-content {
+  background: #34495e; /* Bleu plus foncé */
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+.theme-dark h1, .theme-dark h2 {
+  color: #e74c3c; /* Rouge plus doux */
+}
+.theme-dark button, .theme-dark input, .theme-dark select {
+  background-color: #e74c3c;
+  color: white;
+}
+.theme-dark button:hover, .theme-dark input:focus, .theme-dark select:focus {
+  background-color: #c0392b;
+}
+.theme-dark footer {
+    background-color: #222;
+    color: #bbb;
+}
+.theme-dark footer a {
+    color: #e74c3c;
+}
+.theme-dark input[type="text"], .theme-dark input[type="number"], .theme-dark select {
+    background-color: #444;
+    color: #ecf0f1;
+    border-color: #555;
+}
+.theme-dark #progress-bar { /* Progress bar for dark theme */
+  background-color: #e74c3c;
+}
+
+/* Neon Theme */
+.theme-neon {
+  background-color: #1a0a2e; /* Fond très sombre */
+  color: #e0f7fa; /* Cyan clair */
+}
+.theme-neon .quiz-container, .theme-neon .popup-content {
+  background: #2a0e4a; /* Violet foncé */
+  box-shadow: 0 0 30px rgba(100, 255, 218, 0.6); /* Ombre lumineuse */
+  border: 1px solid #00f0ff;
+}
+.theme-neon h1, .theme-neon h2 {
+  color: #00f0ff; /* Cyan éclatant */
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+}
+.theme-neon button, .theme-neon input, .theme-neon select {
+  background-color: #ff00ff; /* Magenta néon */
+  color: white;
+  border: 1px solid #00f0ff;
+  box-shadow: 0 0 8px #ff00ff;
+}
+.theme-neon button:hover, .theme-neon input:focus, .theme-neon select:focus {
+  background-color: #e600e6;
+  box-shadow: 0 0 15px #ff00ff;
+}
+.theme-neon footer {
+    background-color: #1a0a2e;
+    color: #e0f7fa;
+    border-top: 1px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+.theme-neon footer a {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+.theme-neon input[type="text"], .theme-neon input[type="number"], .theme-neon select {
+    background-color: #3d0f6b;
+    color: #e0f7fa;
+    border-color: #00f0ff;
+    box-shadow: inset 0 0 5px rgba(0, 240, 255, 0.5);
+}
+.theme-neon #progress-bar { /* Progress bar for neon theme */
+  background-color: #00f0ff;
+  box-shadow: 0 0 8px #00f0ff;
+}
+
+/* Hacker Theme */
+.theme-hacker {
+  background-color: #0d1117; /* Presque noir */
+  color: #00ff00; /* Vert néon */
+  font-family: 'Courier New', Courier, monospace; /* Police monospace */
+}
+.theme-hacker .quiz-container, .theme-hacker .popup-content {
+  background: #161b22; /* Gris foncé */
+  box-shadow: 0 0 15px rgba(0,255,0,0.5);
+  border: 1px solid #00ff00;
+}
+.theme-hacker h1, .theme-hacker h2 {
+  color: #00ff00;
+  text-shadow: 0 0 8px rgba(0,255,0,0.8);
+}
+.theme-hacker button, .theme-hacker input, .theme-hacker select {
+  background-color: #006400; /* Vert foncé */
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  box-shadow: 0 0 5px rgba(0,255,0,0.6);
+}
+.theme-hacker button:hover, .theme-hacker input:focus, .theme-hacker select:focus {
+  background-color: #008000;
+  box-shadow: 0 0 10px rgba(0,255,0,0.8);
+}
+.theme-hacker footer {
+    background-color: #0d1117;
+    color: #00ff00;
+    border-top: 1px solid #00ff00;
+    box-shadow: 0 0 10px rgba(0,255,0,0.4);
+}
+.theme-hacker footer a {
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0,255,0,0.8);
+}
+.theme-hacker input[type="text"], .theme-hacker input[type="number"], .theme-hacker select {
+    background-color: #202b3a;
+    color: #00ff00;
+    border-color: #00ff00;
+    box-shadow: inset 0 0 5px rgba(0, 255, 0, 0.5);
+}
+.theme-hacker #progress-bar { /* Progress bar for hacker theme */
+  background-color: #00ff00;
+  box-shadow: 0 0 8px rgba(0,255,0,0.6);
+}
+
+/* Glass Theme */
+.theme-glass {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); /* Dégradé doux */
+  color: #333;
+}
+.theme-glass .quiz-container, .theme-glass .popup-content {
+  background: rgba(255, 255, 255, 0.4); /* Blanc semi-transparent */
+  backdrop-filter: blur(10px); /* Effet verre flou */
+  -webkit-backdrop-filter: blur(10px); /* Pour Safari */
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.theme-glass h1, .theme-glass h2 {
+  color: #007bff; /* Bleu vibrant */
+}
+.theme-glass button, .theme-glass input, .theme-glass select {
+  background-color: rgba(0, 123, 255, 0.7); /* Bleu semi-transparent */
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.theme-glass button:hover, .theme-glass input:focus, .theme-glass select:focus {
+  background-color: rgba(0, 123, 255, 0.9);
+}
+.theme-glass footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #eee;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+.theme-glass footer a {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+.theme-glass input[type="text"], .theme-glass input[type="number"], .theme-glass select {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+.theme-glass #progress-bar { /* Progress bar for glass theme */
+  background-color: #007bff;
+}
+
+/* ... (votre CSS existant) ... */
+
+.decline-btn {
+    background-color: #e91010; /* Gris pour le bouton de refus */
+    margin-left: 10px;
+}
+
+.decline-btn:hover {
+    background-color: #a84545;
+}
+
+.contact-info {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 10px auto;
+  word-wrap: break-word;
+}
+
+.contact-info a {
+  display: inline-block;
+  color: inherit;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .contact-info {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+}
+
+/* Bouton Ko-fi */
+.kofi-button-small {
+  display: inline-block;
+  margin: 10px 0;
+}
+.kofi-button-small img {
+  width: 120px; /* Ajuster la taille de l'image */
+  height: auto; /* Conserver les proportions */
+  vertical-align: middle; /* Aligner l'image avec le texte */
+}
+.kofi-button-small:hover img {
+  transform: scale(1.05); /* Légère augmentation de la taille au survol */
+  transition: transform 0.2s ease; /* Transition douce */
+}
+.kofi-button-small a {
+  text-decoration: none; /* Enlever le soulignement */
+  color: inherit; /* Conserver la couleur du texte */
+}
+.kofi-button-small:hover {
+  text-decoration: underline; /* Souligner le lien au survol */
+  color: #ff6b6b; /* Changer la couleur au survol */
+}
+/* Bouton Buy Me a Coffee */
+.buy-me-coffee-btn {
+  background-color: #FFDD00; /* Couleur jaune de Buy Me a Coffee */
+  color: #333 !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.mini-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.mini-logo:hover {
+  transform: scale(1.9);
+  transition: transform 0.2s ease;
+  transition-duration: 3s;
+  filter: brightness(1.2);
+  mix-blend-mode: multiply;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 2px solid #ff6b6b; /* Bordure colorée */
+  transition-delay: 0.5s; /* Délai avant l'effet de zoom */
+  z-index: 10; /* Pour s'assurer que le logo est au-dessus des autres éléments */
+  position: relative; /* Nécessaire pour que z-index fonctionne */
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5)); /* Ombre portée pour un effet de profondeur */
+  mix-blend-mode: screen; /* Mode de fusion pour un effet lumineux */
+  background: rgba(255, 255, 255, 0.2); /* Fond semi-transparent pour un effet de verre */
+  backdrop-filter: blur(5px); /* Flou pour un effet de verre */
+  -webkit-backdrop-filter: blur(5px); /* Pour Safari */
+  box-shadow: 0 0 20px rgba(255, 107, 107, 0.5); /* Ombre portée plus prononcée */
+  border-radius: 50%; /* Pour un effet circulaire */
+  transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.5s ease, backdrop-filter 0.5s ease, background 0.5s ease;
+  transition-delay: 0.2s; /* Délai avant l'effet de zoom */
+  animation: pulse 2s infinite; /* Animation de pulsation */
+}
+
+/* Empêche le logo d'être affecté par les filtres ou le thème */
+.logo-fixed {
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  background: none !important;
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#progress-container {
+  width: 100%;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for background-color and box-shadow */
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="troll.png" sizes="32x32">
+
+  <title>Quiz Troll de Karlito</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-light"> <div id="terms-popup" class="popup-overlay">
+    <div class="popup-content">
+      <h2>🚨 Avertissement : Termes d'Utilisation Sensibles 🚨</h2>
+      <p>Bienvenue sur le Quiz Troll de Karlito ! Avant de commencer, veuillez prendre connaissance de ce qui suit :</p>
+      <p>Les questions de ce quiz sont conçues pour être amusantes et "troll", mais elles peuvent parfois aborder des sujets qui pourraient être perçus comme sensibles, ironiques, ou contenir de l'humour noir pour certaines personnes.</p>
+      <p><strong>Si vous êtes facilement offensé(e), mal à l'aise avec l'humour absurde ou les questions qui jouent avec les conventions, nous vous recommandons de quitter ce site web.</strong></p>
+      <p>En cliquant sur "J'accepte et je continue", vous reconnaissez avoir lu et compris cet avertissement, et vous acceptez de procéder en pleine connaissance de cause. Le créateur du quiz décline toute responsabilité quant à l'interprétation personnelle des questions et des réponses.</p>
+      <button id="acceptTermsBtn">J'accepte et je continue</button>
+      <button id="declineTermsBtn" class="decline-btn">Je n'accepte pas</button>
+    </div>
+  </div>
+
+  <div id="progress-container">
+  <div id="progress-bar"></div>
+</div>
+
+
+  <div class="quiz-container">
+    <div id="initial-setup">
+      <h1>Bienvenue sur le Quiz Troll de Karlito ! 🎭</h1>
+      <img src="troll.png" alt="Quiz Troll Logo" class="mini-logo logo-fixed">
+      
+
+      <label for="nicknameInput">Choisis ton surnom :</label>
+      <input type="text" id="nicknameInput" placeholder="Ex: Maître Troll, Décodeur Fou...">
+
+      <label for="numQuestionsInput">Nombre de questions (max autant que tu peux tenir) :</label>
+      <input type="number" id="numQuestionsInput" min="1" max="" value="10">
+      
+      <label for="themeSelect">Choisis un thème :</label>
+      <select id="themeSelect">
+        <option value="light">☀️ Light</option>
+        <option value="dark">🌙 Dark</option>
+        <option value="neon">✨ Neon</option>
+        <option value="hacker">💻 Hacker</option>
+        <option value="glass">💎 Glass</option>
+      </select>
+      <button id="startQuizBtn">Commencer le Quiz</button>
+    </div>
+
+    <div id="quiz-content" style="display: none;">
+      <h2 id="subject"></h2>
+      <p id="questionText"></p>
+      <div id="choices"></div>
+      <p id="feedback"></p>
+      <button id="nextBtn">Suivant</button>
+    </div>
+
+    <div id="quiz-end" style="display: none;">
+      <h2>😎 Fin du quiz, <span id="finalNickname"></span> ! T'as survécu aux trolls !</h2>
+      <p>Merci d'avoir participé !</p>
+      <p>
+  Email: <a href="mailto:karlluberisse1308@gmail.com">karlluberisse1308@gmail.com</a> | 
+  Téléphone: <a href="https://wa.me/18495346371" target="_blank">+1 (849) 534-6371</a>
+</p>
+      <p>Si tu as aimé le quiz, n'hésite pas à me soutenir !</p>
+      <p>
+        <a href="https://ko-fi.com/karlito08" target="_blank" class="kofi-button-small">
+  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
+</a>
+          ☕ Offrez-moi un café !
+        </a>
+      </p>
+      <button id="restartQuizBtn">Recommencer le Quiz</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Karlito's Troll Quiz. Tous droits réservés.</p>
+    <p class="contact-info">
+  📧 Email : <a href="mailto:karlluberisse1308@gmail.com">karlluberisse1308@gmail.com</a><br>
+  📱 Téléphone : <a href="https://wa.me/18495346371" target="_blank" rel="noopener">+1 (849) 534-6371</a>
+</p>
+
+   <a href="https://ko-fi.com/karlito08" target="_blank" class="kofi-button-small">
+  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
+</a>
+    <p class="social-links">
+      Suivez-moi sur :
+      <a href="https://twitter.com/karlito08" target="_blank" rel="noopener noreferrer">Twitter</a>,
+      <a href="https://www.instagram.com/Citations_sans_limites" target="_blank" rel="noopener noreferrer">Instagram</a>,
+      </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
