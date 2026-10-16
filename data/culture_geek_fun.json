@@ -1,0 +1,82 @@
+[
+  {
+    "subject": "Culture Geek & Pop",
+    "question": "Il y a 10 sortes de personnes dans le monde, <NICKNAME>. Lesquelles ?",
+    "choices": [
+      "Ceux qui comprennent le binaire, et les autres !",
+      "Ceux qui aiment Star Wars et ceux qui ont tort",
+      "Ceux qui mangent la pizza avec les doigts et les extraterrestres",
+      "Ceux qui répondent au quiz et ceux qui dorment"
+    ],
+    "feedback": {
+      "Ceux qui comprennent le binaire, et les autres !": "Parfait <NICKNAME> ! 10 en base 2 = 2 en base 10 !",
+      "Ceux qui aiment Star Wars et ceux qui ont tort": "Très tentant <NICKNAME>, mais le binaire est le classique suprême !",
+      "Ceux qui mangent la pizza avec les doigts et les extraterrestres": "Manger la pizza avec une fourchette devrait être interdit par la loi !",
+      "Ceux qui répondent au quiz et ceux qui dorment": "Toi tu es bien éveillé en tout cas <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Geek & Tech Dév",
+    "question": "Combien de développeurs faut-il pour changer une ampoule grillée, <NICKNAME> ?",
+    "choices": [
+      "Aucun, c'est un problème hardware !",
+      "Un seul, mais il attend la mise à jour du firmware",
+      "Trois : un qui code la douille, un qui teste l'ampoule, un qui refuse de push",
+      "Aucun, ils préfèrent travailler dans le noir"
+    ],
+    "feedback": {
+      "Aucun, c'est un problème hardware !": "« C'est pas un bug, c'est une feature hardware » <NICKNAME> !",
+      "Un seul, mais il attend la mise à jour du firmware": "Ça peut prendre 6 mois de sprint agile <NICKNAME> !",
+      "Trois : un qui code la douille, un qui teste l'ampoule, un qui refuse de push": "Et un chef de projet qui demande un point d'étape toutes les 15 minutes !",
+      "Aucun, ils préfèrent travailler dans le noir": "Mode sombre activé dans la vraie vie !"
+    }
+  },
+  {
+    "subject": "Cinéma & Séries",
+    "question": "Pourquoi Dark Vador préfère-t-il les voyages en classe éco, <NICKNAME> ?",
+    "choices": [
+      "Parce qu'il n'y a pas assez de place pour son respirateur en première",
+      "Pour être plus proche du Côté Obscur de l'arrière de l'appareil",
+      "C'est faux, il a une Étoile de la Mort privée !",
+      "Parce que les hôtesses ont trop peur de lui demander son billet"
+    ],
+    "feedback": {
+      "C'est faux, il a une Étoile de la Mort privée !": "Évidemment <NICKNAME> ! On ne met pas le Seigneur Sith au rang 24B à côté des toilettes !",
+      "Parce qu'il n'y a pas assez de place pour son respirateur en première": "Son casque prend de la place dans le compartiment bagages !",
+      "Pour être plus proche du Côté Obscur de l'arrière de l'appareil": "Bien pensé avec les réacteurs qui fument !",
+      "Parce que les hôtesses ont trop peur de lui demander son billet": "« Je trouve votre manque de caféine consternant » !"
+    }
+  },
+  {
+    "subject": "Geek & Tech Dév",
+    "question": "Pourquoi les programmeurs confondent-ils souvent Halloween et Noël, <NICKNAME> ?",
+    "choices": [
+      "Parce que OCT 31 = DEC 25 ! (Octal 31 = Décimal 25)",
+      "Parce qu'ils ne sortent jamais de chez eux",
+      "Parce que les guirlandes ressemblent à des câbles mal rangés",
+      "Parce que le Père Noël et les fantômes s'exécutent en tâche de fond"
+    ],
+    "feedback": {
+      "Parce que OCT 31 = DEC 25 ! (Octal 31 = Décimal 25)": "Génie des maths et du code <NICKNAME> ! 31 en octal = 3×8 + 1 = 25 en décimal !",
+      "Parce qu'ils ne sortent jamais de chez eux": "Un peu cliché mais rigolo <NICKNAME> !",
+      "Parce que les guirlandes ressemblent à des câbles mal rangés": "Le fameux câble management sous le bureau !",
+      "Parce que le Père Noël et les fantômes s'exécutent en tâche de fond": "Daemons Linux partout !"
+    }
+  },
+  {
+    "subject": "Culture Geek & Pop",
+    "question": "Que dit un disque dur quand il tombe par terre, <NICKNAME> ?",
+    "choices": [
+      "« J'ai perdu la mémoire ! » ou « J'ai crashé ! »",
+      "« Sauvegardez-moi dans le Cloud ! »",
+      "« Bip bip erreur 404 sol détecté »",
+      "« C'était un SSD, je n'ai rien senti ! »"
+    ],
+    "feedback": {
+      "« J'ai perdu la mémoire ! » ou « J'ai crashé ! »": "Le crash de disque mécanique le plus redouté de l'histoire <NICKNAME> !",
+      "« Sauvegardez-moi dans le Cloud ! »": "Un peu trop tard quand la tête de lecture est pliée !",
+      "« Bip bip erreur 404 sol détecté »": "Erreur 500 : gravité non gérée !",
+      "« C'était un SSD, je n'ai rien senti ! »": "Les SSD rigolent de la gravité en effet !"
+    }
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "subject": "Blagues Classiques",
+    "question": "Que dit un informaticien quand il a froid, <NICKNAME> ?",
+    "choices": [
+      "Il ferme les fenêtres (Windows)",
+      "Il allume un firewall",
+      "Il reboot son radiateur",
+      "Il met un pull en cachemire"
+    ],
+    "feedback": {
+      "Il ferme les fenêtres (Windows)": "Bien vu <NICKNAME> ! Windows fermé = zéro courant d'air !",
+      "Il allume un firewall": "Bien essayé <NICKNAME>, mais ça bloque juste les pirates, pas le rhume !",
+      "Il reboot son radiateur": "Classique réflexe de dev, mais ça ne chauffe pas la pièce <NICKNAME> !",
+      "Il met un pull en cachemire": "Pull en cache ou en RAM, <NICKNAME> ?"
+    }
+  },
+  {
+    "subject": "Punchlines & Rires",
+    "question": "Pourquoi les plongeurs sous-marins plongent-ils toujours en arrière du bateau, <NICKNAME> ?",
+    "choices": [
+      "Parce que sinon ils tombent dans le bateau",
+      "Pour mieux voir les poissons",
+      "Par superstition maritime",
+      "Pour éviter d'abîmer leurs palmes"
+    ],
+    "feedback": {
+      "Parce que sinon ils tombent dans le bateau": "Élémentaire mon cher <NICKNAME> ! Tomber dans le bateau ferait juste un gros ploc ridicule !",
+      "Pour mieux voir les poissons": "Non <NICKNAME>, ils verraient surtout les chaussures du capitaine !",
+      "Par superstition maritime": "Rien de mystique ici, juste les lois de la gravité <NICKNAME> !",
+      "Pour éviter d'abîmer leurs palmes": "Les palmes vont bien, c'est le nez qui prendrait cher <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Blagues Classiques",
+    "question": "Quel est le comble pour un électricien, <NICKNAME> ?",
+    "choices": [
+      "De ne pas être au courant",
+      "De disjoncter pour un rien",
+      "D'avoir des ampoules aux pieds",
+      "Toutes ces réponses à la fois"
+    ],
+    "feedback": {
+      "De ne pas être au courant": "Indémodable classique <NICKNAME> !",
+      "De disjoncter pour un rien": "Pas mal trouvé <NICKNAME>, mais la bonne blague regroupe tout !",
+      "D'avoir des ampoules aux pieds": "Très poétique <NICKNAME> !",
+      "Toutes ces réponses à la fois": "Bingo <NICKNAME> ! Il n'est pas au courant, il a des ampoules aux pieds et il disjoncte !"
+    }
+  },
+  {
+    "subject": "Rires Garantis",
+    "question": "Pourquoi les poissons vivent-ils dans de l'eau salée, <NICKNAME> ?",
+    "choices": [
+      "Parce que le poivre les fait éternuer",
+      "Pour faire des économies d'assaisonnement",
+      "Parce que la mer a trop pleuré",
+      "C'est la faute des requins cuisiniers"
+    ],
+    "feedback": {
+      "Parce que le poivre les fait éternuer": "Exactement <NICKNAME> ! T'imagines un thon éternuer sous l'eau ? Ça ferait un tsunami !",
+      "Pour faire des économies d'assaisonnement": "Pratique pour les sushis, mais ce n'est pas la blague <NICKNAME> !",
+      "Parce que la mer a trop pleuré": "Un peu trop poétique pour nous, <NICKNAME> !",
+      "C'est la faute des requins cuisiniers": "Les requins préfèrent le tartare frais <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Blagues Classiques",
+    "question": "Deux grains de sable arrivent à la plage. Qu'est-ce que l'un dit à l'autre, <NICKNAME> ?",
+    "choices": [
+      "Ne te retourne pas, je crois qu'on est suivis !",
+      "On s'installe où avec tout ce monde ?",
+      "Il fait un peu trop sec par ici",
+      "J'ai pris un coup de soleil"
+    ],
+    "feedback": {
+      "Ne te retourne pas, je crois qu'on est suivis !": "Hahaha exactement <NICKNAME> ! Des milliards de grains aux fesses !",
+      "On s'installe où avec tout ce monde ?": "Drôle, mais la paranoïa du sable est encore plus drôle <NICKNAME> !",
+      "Il fait un peu trop sec par ici": "L'océan est juste à deux mètres pourtant <NICKNAME> !",
+      "J'ai pris un coup de soleil": "Le sable est habitué depuis des millénaires <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Punchlines & Rires",
+    "question": "Que fait une fraise sur un cheval, <NICKNAME> ?",
+    "choices": [
+      "Tagada !",
+      "Elle fait de la compote",
+      "Elle saute les obstacles",
+      "Elle essaie de ne pas se faire écraser"
+    ],
+    "feedback": {
+      "Tagada !": "Tagada tsoin tsoin ! Bien joué <NICKNAME>, un grand classique du bonbon !",
+      "Elle fait de la compote": "Seulement si le cheval trébuche <NICKNAME> !",
+      "Elle saute les obstacles": "La fraise championne olympique d'équitation ?",
+      "Elle essaie de ne pas se faire écraser": "Trop réaliste, pense confiserie <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Humour Familial",
+    "question": "Un enfant demande : « Papa, c'est quoi un alcoolique ? » Que répond le père, <NICKNAME> ?",
+    "choices": [
+      "« Tu vois ces 4 arbres ? Un alcoolique en voit 8. » L'enfant : « Mais papa, il n'y a que 2 arbres ! »",
+      "« C'est quelqu'un qui a tout le temps soif de jus de pomme fermenté »",
+      "« Demande à ta mère, elle sait tout »",
+      "« C'est quelqu'un qui oublie d'acheter du pain »"
+    ],
+    "feedback": {
+      "« Tu vois ces 4 arbres ? Un alcoolique en voit 8. » L'enfant : « Mais papa, il n'y a que 2 arbres ! »": "Excellente chute <NICKNAME> ! Le papa s'est trahi en direct !",
+      "« C'est quelqu'un qui a tout le temps soif de jus de pomme fermenté »": "Mignon mais pas aussi drôle que la réalité des arbres <NICKNAME> !",
+      "« Demande à ta mère, elle sait tout »": "Très réaliste, mais le papa a fait encore plus fort !",
+      "« C'est quelqu'un qui oublie d'acheter du pain »": "Non, ça c'est juste un distrait <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Rires Garantis",
+    "question": "Pourquoi les flamants roses dorment-ils sur une seule patte, <NICKNAME> ?",
+    "choices": [
+      "Parce que s'ils levaient la deuxième, ils tomberaient !",
+      "Pour faire des économies d'énergie",
+      "Pour rester au chaud",
+      "Parce qu'ils s'entraînent au yoga"
+    ],
+    "feedback": {
+      "Parce que s'ils levaient la deuxième, ils tomberaient !": "Logique imparable <NICKNAME> ! Deux pattes en l'air = chute libre !",
+      "Pour faire des économies d'énergie": "C'est l'explication scientifique, mais ici on veut rire <NICKNAME> !",
+      "Pour rester au chaud": "Laisse les scientifiques de côté et ris un bon coup <NICKNAME> !",
+      "Parce qu'ils s'entraînent au yoga": "Le flamant en posture de l'arbre, pas mal !"
+    }
+  }
+]

@@ -9,43 +9,64 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="theme-light"> <div id="terms-popup" class="popup-overlay">
+<body class="theme-dark">
+  <div id="terms-popup" class="popup-overlay" role="dialog" aria-modal="true" aria-labelledby="popup-title">
     <div class="popup-content">
-      <h2>🚨 Avertissement : Termes d'Utilisation Sensibles 🚨</h2>
-      <p>Bienvenue sur le Quiz Troll de Karlito ! Avant de commencer, veuillez prendre connaissance de ce qui suit :</p>
-      <p>Les questions de ce quiz sont conçues pour être amusantes et "troll", mais elles peuvent parfois aborder des sujets qui pourraient être perçus comme sensibles, ironiques, ou contenir de l'humour noir pour certaines personnes.</p>
-      <p><strong>Si vous êtes facilement offensé(e), mal à l'aise avec l'humour absurde ou les questions qui jouent avec les conventions, nous vous recommandons de quitter ce site web.</strong></p>
-      <p>En cliquant sur "J'accepte et je continue", vous reconnaissez avoir lu et compris cet avertissement, et vous acceptez de procéder en pleine connaissance de cause. Le créateur du quiz décline toute responsabilité quant à l'interprétation personnelle des questions et des réponses.</p>
-      <button id="acceptTermsBtn">J'accepte et je continue</button>
-      <button id="declineTermsBtn" class="decline-btn">Je n'accepte pas</button>
+      <h2 id="popup-title">
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Avertissement : Humour Noir & Troll
+      </h2>
+      <p>Bienvenue sur le Quiz de Karlito !</p>
+      <p>Le mode <strong>Troll & Humour Noir</strong> contient de l'ironie piquante, des questions absurdes ou existentielles qui peuvent sembler déstabilisantes ou dépressives pour certaines personnes.</p>
+      <p>Tu préfères de la bonne humeur et de vraies bonnes blagues normales ? Choisis le <strong>Mode Humour Normal</strong> !</p>
+      <div class="popup-actions">
+        <button id="chooseNormalBtn" class="normal-btn">
+          <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          Mode Humour Normal (Bonnes Blagues)
+        </button>
+        <button id="acceptTermsBtn">
+          😈 Continuer en Mode Troll & Noir
+        </button>
+        <button id="declineTermsBtn" class="decline-btn">Quitter le site</button>
+      </div>
     </div>
   </div>
 
   <div id="progress-container">
-  <div id="progress-bar"></div>
-</div>
-
+    <div id="progress-bar"></div>
+  </div>
 
   <div class="quiz-container">
     <div id="initial-setup">
-      <h1>Bienvenue sur le Quiz Troll de Karlito ! 🎭</h1>
+      <h1>
+        Quiz Karlito : Humour & Trolls
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+      </h1>
       <img src="troll.png" alt="Quiz Troll Logo" class="mini-logo logo-fixed">
-      
 
       <label for="nicknameInput">Choisis ton surnom :</label>
-      <input type="text" id="nicknameInput" placeholder="Ex: Maître Troll, Décodeur Fou...">
+      <input type="text" id="nicknameInput" placeholder="Ex: Maître Rieur, Karlito Fan...">
 
-      <label for="numQuestionsInput">Nombre de questions (max autant que tu peux tenir) :</label>
-      <input type="number" id="numQuestionsInput" min="1" max="" value="10">
-      
-      <label for="themeSelect">Choisis un thème :</label>
-      <select id="themeSelect">
-        <option value="light">☀️ Light</option>
-        <option value="dark">🌙 Dark</option>
-        <option value="neon">✨ Neon</option>
-        <option value="hacker">💻 Hacker</option>
-        <option value="glass">💎 Glass</option>
+      <label for="modeSelect">
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        Choisis ton type d'humour :
+      </label>
+      <select id="modeSelect">
+        <option value="normal" selected>✨ Mode Humour Normal (De très bonnes blagues & fun)</option>
+        <option value="troll">😈 Mode Troll & Humour Noir (L'original piquant)</option>
       </select>
+
+      <label for="themeSelect">
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+        Choisis un thème (sujet) :
+      </label>
+      <select id="themeSelect">
+        <!-- Rempli dynamiquement selon le mode choisi -->
+      </select>
+
+      <label for="numQuestionsInput" id="numQuestionsLabel">Nombre de questions (max : <span id="maxQuestionsNotice">...</span>) :</label>
+      <input type="number" id="numQuestionsInput" min="1" max="10" value="10">
+      
       <button id="startQuizBtn">Commencer le Quiz</button>
     </div>
 
@@ -58,18 +79,20 @@
     </div>
 
     <div id="quiz-end" style="display: none;">
-      <h2>😎 Fin du quiz, <span id="finalNickname"></span> ! T'as survécu aux trolls !</h2>
+      <h2>
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.45 1-1 1H8c-.55 0-1 .45-1 1v1h10v-1c0-.55-.45-1-1-1h-1c-.55 0-1-.45-1-1v-2.34"/><path d="M6 4h12a2 2 0 0 1 2 2v3.5a6.5 6.5 0 0 1-13 0V6a2 2 0 0 1 2-2Z"/></svg>
+        Fin du quiz, <span id="finalNickname"></span> ! T'as survécu aux trolls !
+      </h2>
       <p>Merci d'avoir participé !</p>
       <p>
-  Email: <a href="mailto:karlluberisse1308@gmail.com">karlluberisse1308@gmail.com</a> | 
-  Téléphone: <a href="https://wa.me/18495346371" target="_blank">+1 (849) 534-6371</a>
-</p>
+        Email: <a href="mailto:karlluberisse1308@gmail.com"><svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>karlluberisse1308@gmail.com</a> | 
+        Téléphone: <a href="https://wa.me/18293393248" target="_blank" rel="noopener"><svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>+1 (829) 339-3248</a>
+      </p>
       <p>Si tu as aimé le quiz, n'hésite pas à me soutenir !</p>
       <p>
         <a href="https://ko-fi.com/karlito08" target="_blank" class="kofi-button-small">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
-</a>
-          ☕ Offrez-moi un café !
+          <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
+          <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg> Offrez-moi un café !
         </a>
       </p>
       <button id="restartQuizBtn">Recommencer le Quiz</button>
@@ -79,18 +102,24 @@
   <footer>
     <p>&copy; 2025 Karlito's Troll Quiz. Tous droits réservés.</p>
     <p class="contact-info">
-  📧 Email : <a href="mailto:karlluberisse1308@gmail.com">karlluberisse1308@gmail.com</a><br>
-  📱 Téléphone : <a href="https://wa.me/18495346371" target="_blank" rel="noopener">+1 (829) 339-3248</a>
-</p>
+      <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> Email : <a href="mailto:karlluberisse1308@gmail.com">karlluberisse1308@gmail.com</a><br>
+      <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg> Téléphone : <a href="https://wa.me/18293393248" target="_blank" rel="noopener">+1 (829) 339-3248</a>
+    </p>
 
-   <a href="https://ko-fi.com/karlito08" target="_blank" class="kofi-button-small">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
-</a>
+    <a href="https://ko-fi.com/karlito08" target="_blank" class="kofi-button-small">
+      <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" alt="Soutenez-moi sur Ko-fi">
+    </a>
     <p class="social-links">
       Suivez-moi sur :
-      <a href="https://twitter.com/karlito08" target="_blank" rel="noopener noreferrer">Twitter</a>,
-      <a href="https://www.instagram.com/Citations_sans_limites" target="_blank" rel="noopener noreferrer">Instagram</a>,
-      </p>
+      <a href="https://twitter.com/karlito08" target="_blank" rel="noopener noreferrer">
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+        Twitter
+      </a>,
+      <a href="https://www.instagram.com/Citations_sans_limites" target="_blank" rel="noopener noreferrer">
+        <svg class="ui-icon ui-icon-stroke" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        Instagram
+      </a>
+    </p>
   </footer>
 
   <script src="main.js"></script>

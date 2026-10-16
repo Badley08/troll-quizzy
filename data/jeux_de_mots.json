@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "Jeux de Mots & Calembours",
+    "question": "Comment appelle-t-on un chat tout-terrain, <NICKNAME> ?",
+    "choices": [
+      "Un Cat-Cat (4x4)",
+      "Un Chat-moir",
+      "Un Félintrépide",
+      "Un Miaou-Rover"
+    ],
+    "feedback": {
+      "Un Cat-Cat (4x4)": "Cat-cat tout chemin ! Tu as le sens de la formule <NICKNAME> !",
+      "Un Chat-moir": "Pas mal trouvé pour un chat soyeux <NICKNAME> !",
+      "Un Félintrépide": "Très classe, mais moins percutant que le Cat-cat !",
+      "Un Miaou-Rover": "Excellente marque automobile féline <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Animaux Farceurs",
+    "question": "Que dit un escargot quand il croise une limace sur la route, <NICKNAME> ?",
+    "choices": [
+      "« Regarde, un naturiste ! »",
+      "« Tu as oublié tes valises ? »",
+      "« Ralentis, tu vas te faire flasher ! »",
+      "« Beau décapotable ! »"
+    ],
+    "feedback": {
+      "« Regarde, un naturiste ! »": "Hahaha classique indémodable <NICKNAME> ! Sortir sans sa coquille, quel scandale !",
+      "« Tu as oublié tes valises ? »": "Sympa mais le naturiste est imbattable <NICKNAME> !",
+      "« Ralentis, tu vas te faire flasher ! »": "À 0.002 km/h l'excès de vitesse est peu probable !",
+      "« Beau décapotable ! »": "Plutôt un sans toit fixe !"
+    }
+  },
+  {
+    "subject": "Comédie Absurde",
+    "question": "Deux vaches discutent dans un pré. L'une dit : « Tu n'as pas peur de la maladie de la vache folle ? » Que répond l'autre, <NICKNAME> ?",
+    "choices": [
+      "« Je m'en fous, je suis un canard ! »",
+      "« Meuh non, je prends des vitamines ! »",
+      "« L'herbe est trop bonne pour y penser ! »",
+      "« Ça n'arrive qu'aux bœufs ! »"
+    ],
+    "feedback": {
+      "« Je m'en fous, je suis un canard ! »": "Coin coin ! La vache a visiblement déjà des symptômes <NICKNAME> !",
+      "« Meuh non, je prends des vitamines ! »": "Des vitamines dans le foin, bien sûr !",
+      "« L'herbe est trop bonne pour y penser ! »": "Philosophie bovine exemplaire <NICKNAME> !",
+      "« Ça n'arrive qu'aux bœufs ! »": "Pas mal, mais l'illusion du canard est légendaire !"
+    }
+  },
+  {
+    "subject": "Jeux de Mots & Calembours",
+    "question": "Que dit un citron qui fait un cambriolage, <NICKNAME> ?",
+    "choices": [
+      "« Plus un zeste, je suis pressé ! »",
+      "« Rendez la monnaie ou je pique ! »",
+      "« Les mains en l'air, pas d'acidité ! »",
+      "« Donnez-moi du sucre tout de suite ! »"
+    ],
+    "feedback": {
+      "« Plus un zeste, je suis pressé ! »": "Double jeu de mots parfait <NICKNAME> ! Zeste + Pressé = pur jus !",
+      "« Rendez la monnaie ou je pique ! »": "Piquant, mais où est le zeste <NICKNAME> ?",
+      "« Les mains en l'air, pas d'acidité ! »": "Moins percutant que le zeste pressé !",
+      "« Donnez-moi du sucre tout de suite ! »": "Pour faire de la limonade ?"
+    }
+  },
+  {
+    "subject": "Animaux Farceurs",
+    "question": "Pourquoi les canards ont-ils des pattes palmées, <NICKNAME> ?",
+    "choices": [
+      "Pour mieux éteindre les feux de forêt !",
+      "Pour applaudir plus fort sous l'eau",
+      "Pour faire du ski nautique sans équipement",
+      "Parce que les baskets étaient en rupture de stock"
+    ],
+    "feedback": {
+      "Pour mieux éteindre les feux de forêt !": "Et pourquoi les éléphants ont-ils des pattes plates ? Pour écraser les canards en flammes ! Sacré combo <NICKNAME> !",
+      "Pour applaudir plus fort sous l'eau": "Applaudissements palmés très poétiques !",
+      "Pour faire du ski nautique sans équipement": "Pas bête pour les vacances à la mare !",
+      "Parce que les baskets étaient en rupture de stock": "Les Air Duck One étaient épuisées !"
+    }
+  },
+  {
+    "subject": "Comédie Absurde",
+    "question": "Quel est le super-pouvoir le plus inutile mais rigolo imaginable, <NICKNAME> ?",
+    "choices": [
+      "Faire clignoter les grille-pains par la pensée",
+      "Invoquer une saucisse tiède une fois par mois",
+      "Comprendre ce que racontent les cailloux",
+      "Toutes ces réponses méritent un costume de super-héros"
+    ],
+    "feedback": {
+      "Toutes ces réponses méritent un costume de super-héros": "Avengers niveau Z <NICKNAME> ! Avec cape et slip par-dessus le collant !",
+      "Faire clignoter les grille-pains par la pensée": "Idéal pour effrayer le pain de mie !",
+      "Invoquer une saucisse tiède une fois par mois": "Très utile en cas de fringale un mardi après-midi !",
+      "Comprendre ce que racontent les cailloux": "Spoiler : ils ne racontent pas grand-chose, ils restent de marbre !"
+    }
+  }
+]

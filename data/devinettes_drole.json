@@ -1,0 +1,114 @@
+[
+  {
+    "subject": "Devinettes Hilarantes",
+    "question": "Qu'est-ce qui a des dents mais ne mord jamais, <NICKNAME> ?",
+    "choices": [
+      "Un peigne",
+      "Une fermeture éclair",
+      "Une scie sauteuse éteinte",
+      "Un grand-père sans son dentier"
+    ],
+    "feedback": {
+      "Un peigne": "Exactement <NICKNAME> ! Un peigne a plein de dents et ne mange que des cheveux !",
+      "Une fermeture éclair": "Pas mal du tout, mais le peigne est le roi incontesté de l'énigme <NICKNAME> !",
+      "Une scie sauteuse éteinte": "Elle peut quand même piquer si tu trébuches dessus !",
+      "Un grand-père sans son dentier": "S'il n'a pas son dentier il n'a plus de dents du tout <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Énigmes Malines",
+    "question": "Plus on en retire, plus il devient grand. Qui suis-je, <NICKNAME> ?",
+    "choices": [
+      "Un trou",
+      "Le découvert bancaire",
+      "La faim",
+      "Le vide dans le frigo"
+    ],
+    "feedback": {
+      "Un trou": "Bravo <NICKNAME> ! Plus tu creuses et retires de terre, plus le trou grandit !",
+      "Le découvert bancaire": "Psychologiquement vrai <NICKNAME>, mais la réponse officielle c'est le trou !",
+      "La faim": "Bien pensé pour l'appétit, mais ce n'est pas l'énigme classique <NICKNAME> !",
+      "Le vide dans le frigo": "Ça sent le dimanche soir sans courses <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Questions Pièges Sympas",
+    "question": "Certains mois ont 31 jours, d'autres en ont 30. Combien de mois ont 28 jours, <NICKNAME> ?",
+    "choices": [
+      "Tous les 12 mois !",
+      "Seulement février",
+      "1 mois tous les 4 ans",
+      "Aucun sauf les années bissextiles"
+    ],
+    "feedback": {
+      "Tous les 12 mois !": "Bien joué <NICKNAME> ! Tous les mois de l'année ont au moins 28 jours !",
+      "Seulement février": "Et non <NICKNAME> ! Janvier a 28 jours aussi (et même 3 de plus) !",
+      "1 mois tous les 4 ans": "Tu t'es emmêlé les pinceaux dans le calendrier <NICKNAME> !",
+      "Aucun sauf les années bissextiles": "Le piège a fonctionné à merveille !"
+    }
+  },
+  {
+    "subject": "Devinettes Hilarantes",
+    "question": "Qu'est-ce qui monte et descend sans jamais bouger de place, <NICKNAME> ?",
+    "choices": [
+      "L'escalier",
+      "La température",
+      "L'ascenseur",
+      "La pression avant un examen"
+    ],
+    "feedback": {
+      "L'escalier": "Parfaitement répondu <NICKNAME> ! Il monte et descend sans faire un seul pas !",
+      "La température": "Bien trouvé aussi, mais l'escalier est la reine des devinettes <NICKNAME> !",
+      "L'ascenseur": "L'ascenseur bouge physiquement <NICKNAME>, il monte et descend pour de vrai !",
+      "La pression avant un examen": "Très poétique mais prends une tisane <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Énigmes Malines",
+    "question": "Qu'est-ce qui t'appartient, mais que les autres utilisent beaucoup plus souvent que toi, <NICKNAME> ?",
+    "choices": [
+      "Ton prénom",
+      "Ton compte Netflix",
+      "Ton chargeur de téléphone",
+      "Ta patience"
+    ],
+    "feedback": {
+      "Ton prénom": "Exactement <NICKNAME> ! Tout le monde le prononce plus souvent que toi !",
+      "Ton compte Netflix": "Tellement vrai dans la vraie vie <NICKNAME>, mais c'est le prénom !",
+      "Ton chargeur de téléphone": "Mention spéciale pour les colocataires qui l'empruntent toujours !",
+      "Ta patience": "Les gens la testent mais ils ne l'utilisent pas <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Questions Pièges Sympas",
+    "question": "Si un coq pond un œuf tout en haut du toit d'une grange pentue vers le sud, de quel côté tombe l'œuf, <NICKNAME> ?",
+    "choices": [
+      "Les coqs ne pondent pas d'œufs !",
+      "Vers le sud à cause du vent",
+      "Il roule doucement vers le nord",
+      "Il se casse directement au sommet"
+    ],
+    "feedback": {
+      "Les coqs ne pondent pas d'œufs !": "Bravo champion <NICKNAME> ! Jamais un coq n'a pondu un œuf !",
+      "Vers le sud à cause du vent": "Hé hé, un coq qui pond des œufs, tu as déjà vu ça <NICKNAME> ?",
+      "Il roule doucement vers le nord": "Perdu <NICKNAME> ! Laisse la poule faire son travail !",
+      "Il se casse directement au sommet": "Pas d'œuf, pas de casse <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Devinettes Hilarantes",
+    "question": "Qu'est-ce qui a un chapeau mais pas de tête, et un pied mais pas de chaussure, <NICKNAME> ?",
+    "choices": [
+      "Un champignon",
+      "Un lampadaire",
+      "Un clou",
+      "Un tabouret de bar"
+    ],
+    "feedback": {
+      "Un champignon": "C'est ça <NICKNAME> ! Un bon cèpe ou un champignon de Paris !",
+      "Un lampadaire": "Un lampadaire avec un pied et un chapeau ? Pourquoi pas, mais le champignon gagne !",
+      "Un clou": "Le clou a une tête et une pointe, pas de chapeau et pied !",
+      "Un tabouret de bar": "Le tabouret a souvent 3 ou 4 pieds <NICKNAME> !"
+    }
+  }
+]

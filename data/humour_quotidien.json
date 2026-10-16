@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "Situations du Quotidien",
+    "question": "Que se passe-t-il quand tu décides enfin d'aller laver ta voiture, <NICKNAME> ?",
+    "choices": [
+      "Il se met à pleuvoir 20 minutes plus tard",
+      "Les oiseaux organisent une réunion au-dessus",
+      "Tu découvres une rayure que tu n'avais jamais vue",
+      "Toutes les options réunies en même temps"
+    ],
+    "feedback": {
+      "Il se met à pleuvoir 20 minutes plus tard": "La fameuse loi de Murphy météorologique <NICKNAME> !",
+      "Les oiseaux organisent une réunion au-dessus": "Ils ont un radar spécial pour les carrosseries propres !",
+      "Tu découvres une rayure que tu n'avais jamais vue": "La vérité qui fâche dès que la crasse s'en va !",
+      "Toutes les options réunies en même temps": "La totale <NICKNAME> ! Pluie + oiseaux + rayure mystère !"
+    }
+  },
+  {
+    "subject": "Vie de Bureau & Études",
+    "question": "Quel est le mensonge le plus universellement partagé sur Terre, <NICKNAME> ?",
+    "choices": [
+      "« J'ai lu et j'accepte les conditions générales »",
+      "« J'arrive dans 5 minutes, je suis en route »",
+      "« Demain je commence le sport pour de bon »",
+      "« Pas de souci, j'ai bien noté dans ma tête »"
+    ],
+    "feedback": {
+      "« J'ai lu et j'accepte les conditions générales »": "Numéro 1 mondial incontesté <NICKNAME> ! Personne ne lit 80 pages de CGU !",
+      "« J'arrive dans 5 minutes, je suis en route »": "Alors que tu es encore en chaussettes chez toi <NICKNAME> !",
+      "« Demain je commence le sport pour de bon »": "Depuis le 1er janvier 2018...",
+      "« Pas de souci, j'ai bien noté dans ma tête »": "Et 2 minutes après : 'Attends, on disait quoi déjà ?'"
+    }
+  },
+  {
+    "subject": "Galères Drôles",
+    "question": "Combien de tentatives faut-il pour insérer une clé USB dans le bon sens au premier coup, <NICKNAME> ?",
+    "choices": [
+      "Exactement 3 essais : mauvais sens, re-mauvais sens, et enfin le bon",
+      "1 seul essai si tu as un doctorat en physique quantique",
+      "Au moins 10 si tu es dans le noir complet",
+      "Impossible, la clé USB change de dimension"
+    ],
+    "feedback": {
+      "Exactement 3 essais : mauvais sens, re-mauvais sens, et enfin le bon": "Le mystère scientifique universel <NICKNAME> ! La règle des 3 retournements !",
+      "1 seul essai si tu as un doctorat en physique quantique": "Même Einstein ratait le premier coup <NICKNAME> !",
+      "Au moins 10 si tu es dans le noir complet": "Dans le noir, tu finis par la brancher dans la prise jack !",
+      "Impossible, la clé USB change de dimension": "Théorie quantique très populaire mais la règle des 3 l'emporte !"
+    }
+  },
+  {
+    "subject": "Situations du Quotidien",
+    "question": "Que cherche-t-on le plus souvent partout chez soi alors qu'on l'a déjà dans les mains ou sur la tête, <NICKNAME> ?",
+    "choices": [
+      "Ses lunettes ou son téléphone portable",
+      "Ses clés de maison",
+      "La télécommande de la télé",
+      "Son masque chirurgical"
+    ],
+    "feedback": {
+      "Ses lunettes ou son téléphone portable": "Classique absolu <NICKNAME> ! Chercher son téléphone en s'éclairant avec la lampe du téléphone !",
+      "Ses clés de maison": "Elles sont souvent dans la poche où tu viens de fouiller 4 fois !",
+      "La télécommande de la télé": "Elle adore se cacher entre les coussins du canapé !",
+      "Son masque chirurgical": "Sous le menton depuis 3 heures !"
+    }
+  },
+  {
+    "subject": "Vie de Bureau & Études",
+    "question": "Quelle est la définition moderne d'une réunion au bureau selon <NICKNAME> ?",
+    "choices": [
+      "Un e-mail qui a mal tourné et qui dure une heure",
+      "Une occasion de hocher la tête en pensant au repas de midi",
+      "Un rassemblement de personnes qui attendent que le projecteur fonctionne",
+      "Tout cela réuni dans un chef-d'œuvre de productivité"
+    ],
+    "feedback": {
+      "Un e-mail qui a mal tourné et qui dure une heure": "« This meeting could have been an email » – la devise universelle <NICKNAME> !",
+      "Une occasion de hocher la tête en pensant au repas de midi": "Le fameux hochement d'approbation stratégique !",
+      "Un rassemblement de personnes qui attendent que le projecteur fonctionne": "« Tu as le câble HDMI ? Non moi j'ai de l'USB-C » !",
+      "Tout cela réuni dans un chef-d'œuvre de productivité": "Un combo légendaire du monde du travail <NICKNAME> !"
+    }
+  },
+  {
+    "subject": "Galères Drôles",
+    "question": "Pourquoi va-t-on dans la cuisine sans se souvenir pourquoi on y est allé, <NICKNAME> ?",
+    "choices": [
+      "Parce que la porte de la cuisine efface la mémoire vive (effet de seuil)",
+      "Pour regarder dans le frigo comme si un nouveau plat était apparu par magie",
+      "Pour vérifier que la lumière du frigo s'éteint bien",
+      "Pour méditer devant le grille-pain"
+    ],
+    "feedback": {
+      "Pour regarder dans le frigo comme si un nouveau plat était apparu par magie": "Exactement <NICKNAME> ! On l'ouvre, on regarde le vide, on referme, et on revient 10 minutes après !",
+      "Parce que la porte de la cuisine efface la mémoire vive (effet de seuil)": "Prouvé scientifiquement, mais le coup d'œil au frigo est le vrai rituel !",
+      "Pour vérifier que la lumière du frigo s'éteint bien": "Le fameux test avec la fente d'un millimètre !",
+      "Pour méditer devant le grille-pain": "Une pratique zen réservée aux amateurs de pain grillé !"
+    }
+  }
+]

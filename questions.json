@@ -5,7 +5,7 @@
         "choices": ["Oui", "Non"],
         "feedback": {
             "Oui": "Ahh, tu assumes, <NICKNAME> ! C'est bien de s'affirmer !",
-            "Non": "Pas la peine de le nier, <NICKNAME>, c'est ce que tout le monde dit ! 😉"
+            "Non": "Pas la peine de le nier, <NICKNAME>, c'est ce que tout le monde dit ! "
         }
     },
     {
@@ -19,10 +19,10 @@
         "question": "Dans quel pays se trouve la muraille de Chine, <NICKNAME> ?",
         "choices": ["Japon", "Corée", "Chine", "Paris"],
         "feedback": {
-            "Japon": "Pas loin… juste à 3000km près, <NICKNAME> 😏",
+            "Japon": "Pas loin… juste à 3000km près, <NICKNAME> ",
             "Corée": "Encore raté, mais tu chauffes, <NICKNAME> !",
-            "Chine": "Bien joué, <NICKNAME>… mais c’était trop facile 😒",
-            "Paris": "🤣🤣🤣 T’as tenté un Paris gagnant, <NICKNAME> ?!"
+            "Chine": "Bien joué, <NICKNAME>… mais c’était trop facile ",
+            "Paris": "T’as tenté un Paris gagnant, <NICKNAME> ?!"
         }
     },
     {
@@ -30,8 +30,8 @@
         "question": "Si tu prends 3 pommes et que t’en manges 2, combien t’en as, <NICKNAME> ?",
         "choices": ["1", "2", "3", "0"],
         "feedback": {
-            "1": "Exact, <NICKNAME> ! Car t’en as toujours 3, t’en as juste mangé 😎",
-            "2": "Non, <NICKNAME>, t’en as mangé 2, pas gardé 2 bro 😅",
+            "1": "Exact, <NICKNAME> ! Car t’en as toujours 3, t’en as juste mangé ",
+            "2": "Non, <NICKNAME>, t’en as mangé 2, pas gardé 2 bro ",
             "3": "Ouais enfin t’es pas Kirby, <NICKNAME>, hein",
             "0": "Tu t’es évaporé avec les pommes ou quoi, <NICKNAME> ?"
         }
@@ -42,7 +42,7 @@
         "choices": ["Oui", "Non"],
         "feedback": {
             "Oui": "Alors, <NICKNAME>, tu l'as fait ? On t'écoute !",
-            "Non": "Ah, je savais que c'était un défi, <NICKNAME> ! 😉"
+            "Non": "Ah, je savais que c'était un défi, <NICKNAME> ! "
         }
     },
     {
@@ -119,7 +119,7 @@
     "question": "Dans quel pays peut-on mourir de rire... littéralement, <NICKNAME> ?",
     "choices": ["Corée du Nord", "Belgique", "Chine", "Ta chambre"],
     "feedback": {
-      "Corée du Nord": "🤣 Si t'en ris là-bas, on rit plus du tout.",
+      "Corée du Nord": "Si t'en ris là-bas, on rit plus du tout.",
       "Belgique": "Seul un plat de frites trop chaud pourrait causer un drame.",
       "Chine": "Hmm… Pas sûr qu’ils autorisent l’humour noir.",
       "Ta chambre": "Ouais, vu l'ambiance... on parie sur l'ennui fatal."
